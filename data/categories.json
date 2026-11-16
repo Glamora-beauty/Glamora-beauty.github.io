@@ -1,0 +1,106 @@
+[
+  {
+    "id": "makeup",
+    "name": "Makeup",
+    "slug": "makeup",
+    "tagline": "Flawless Complexions, Defined Eyes & Iconic Lips",
+    "description": "Explore genuine cosmetics from top international beauty houses. From full-coverage foundations to velvet lipsticks and high-pigment eyeshadow palettes.",
+    "icon": "fa-magic",
+    "banner": "assets/banners/hero-banner.svg",
+    "subcategories": [
+      "Foundation",
+      "Concealers",
+      "Face Powder",
+      "Blush",
+      "Contour",
+      "Lipsticks",
+      "Lip Gloss",
+      "Mascara",
+      "Eyebrows",
+      "Eyeshadow Palettes",
+      "Setting Sprays",
+      "Primers & Illuminators"
+    ],
+    "itemCount": 26
+  },
+  {
+    "id": "skincare",
+    "name": "Skincare",
+    "slug": "skincare",
+    "tagline": "Nourish, Hydrate & Protect Your Natural Radiance",
+    "description": "Formulations engineered for healthy, radiant skin. Explore gentle cleansers, balancing toners, concentrated ampoules, and deep hydrators.",
+    "icon": "fa-spa",
+    "banner": "assets/banners/collection-banner.svg",
+    "subcategories": [
+      "Face Wash & Cleansers",
+      "Toner & Exfoliating Pads",
+      "Serums & Ampoules",
+      "Moisturizers & Primers",
+      "Face Masks",
+      "Lip Care & Treatments",
+      "Body & Hand Care"
+    ],
+    "itemCount": 12
+  },
+  {
+    "id": "beauty-kits",
+    "name": "Beauty Kits",
+    "slug": "beauty-kits",
+    "tagline": "Curated Duos, Sets & Sculpting Palettes",
+    "description": "Expertly assembled cosmetic collections, lip kits, contour palettes, and setting spray bundles designed for effortless coordination.",
+    "icon": "fa-gift",
+    "banner": "assets/banners/collection-banner.svg",
+    "subcategories": [
+      "Lip Kits & Duos",
+      "Contour & Cheek Kits",
+      "Setting Spray Kits",
+      "Gift Sets"
+    ],
+    "itemCount": 6
+  },
+  {
+    "id": "accessories",
+    "name": "Beauty Accessories",
+    "slug": "accessories",
+    "tagline": "Professional Tools for Seamless Application",
+    "description": "Elevate your beauty ritual with premium synthetic makeup brushes, precision blenders, and essential application tools.",
+    "icon": "fa-paint-brush",
+    "banner": "assets/banners/hero-banner.svg",
+    "subcategories": [
+      "Makeup Brushes & Tools",
+      "Brush Sets",
+      "Application Sponges"
+    ],
+    "itemCount": 4
+  },
+  {
+    "id": "haircare",
+    "name": "Haircare",
+    "slug": "haircare",
+    "tagline": "Volumizing Formulations & Scalp Solutions",
+    "description": "Targeted touch-up powders, revitalizing treatments, and styling essentials for voluminous, well-groomed hair.",
+    "icon": "fa-feather",
+    "banner": "assets/banners/collection-banner.svg",
+    "subcategories": [
+      "Hair Styling & Concealers",
+      "Hair Serum",
+      "Scalp Treatments"
+    ],
+    "itemCount": 2
+  },
+  {
+    "id": "fragrance",
+    "name": "Fragrance",
+    "slug": "fragrance",
+    "tagline": "Sensory Scents, Subtle Mists & Floral Notes",
+    "description": "Elegantly composed eau de parfums and refreshing body mists crafted to leave an unforgettable, subtle trail.",
+    "icon": "fa-spray-can",
+    "banner": "assets/banners/hero-banner.svg",
+    "subcategories": [
+      "Eau de Parfum",
+      "Body Mists",
+      "Travel Sprays"
+    ],
+    "itemCount": 2
+  }
+]

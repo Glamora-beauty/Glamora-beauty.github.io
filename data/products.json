@@ -1,0 +1,2350 @@
+[
+  {
+    "id": "huda-beauty-fauxfilter-foundation",
+    "name": "#FauxFilter Luminous Matte Liquid Foundation",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Foundation",
+    "shortDescription": "Cult-favorite full-coverage foundation with a transfer-proof, luminous matte finish.",
+    "description": "Huda Beauty #FauxFilter Luminous Matte Foundation delivers instant full coverage with a weightless, non-drying texture. Formulated to blur pores, conceal imperfections, and provide a seamless filter-like finish that resists humidity and shine throughout the day.",
+    "primaryImage": "assets/products/makeup/huda-beauty-fauxfilter-luminous-matte-foundation.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-fauxfilter-luminous-matte-foundation.jpeg"
+    ],
+    "shades": [
+      "Vanilla 120B",
+      "Panna Cotta 130G",
+      "Custard 220N",
+      "Toasted Coconut 240N",
+      "Brown Sugar 410G"
+    ],
+    "colors": [
+      {
+        "name": "Vanilla",
+        "hex": "#f5ddcf"
+      },
+      {
+        "name": "Custard",
+        "hex": "#e5c5a7"
+      },
+      {
+        "name": "Toasted Coconut",
+        "hex": "#d8b291"
+      },
+      {
+        "name": "Brown Sugar",
+        "hex": "#a47352"
+      }
+    ],
+    "sizes": [
+      "35ml / 1.18 fl oz"
+    ],
+    "variants": [
+      "Luminous Matte"
+    ],
+    "specifications": {
+      "Formulation": "Liquid",
+      "Coverage": "Full to Extreme",
+      "Finish": "Luminous Matte",
+      "Skin Type": "Normal, Oily, Combination",
+      "Wear Time": "Up to 24 Hours",
+      "Transfer Resistant": "Yes"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "huda-beauty-power-bullet-interview",
+    "name": "Power Bullet Matte Lipstick - Interview (Warm Peachy Nude)",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "Ultra-pigmented velvet matte lipstick with comfortable, non-drying plush wear.",
+    "description": "The Power Bullet Matte Lipstick delivers unparalleled color payoff with a velvety, cushiony finish. Custom-shaped with a diamond-faceted bullet for surgical precision application without needing a separate lip liner.",
+    "primaryImage": "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-01.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-01.jpeg",
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-02.jpeg",
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-03.jpeg"
+    ],
+    "shades": [
+      "Interview (Warm Peachy Nude)"
+    ],
+    "colors": [
+      {
+        "name": "Interview",
+        "hex": "#be7c70"
+      }
+    ],
+    "sizes": [
+      "3g / 0.1 oz"
+    ],
+    "variants": [
+      "Matte Bullet"
+    ],
+    "specifications": {
+      "Formulation": "Bullet Lipstick",
+      "Finish": "Ultra-Matte Velvet",
+      "Pigmentation": "Full Opacity in One Stroke",
+      "Comfort": "Infused with Sweet Almond Oil"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "huda-beauty-power-bullet-board-meeting",
+    "name": "Power Bullet Matte Lipstick - Board Meeting (Warm Cinnamon Mocha)",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "Rich cinnamon-mocha warm nude lipstick with flawless matte longevity.",
+    "description": "Board Meeting is a warm spiced mocha that adds power and dimension to any beauty look. The formula coats lips in a plush, comfortable layer that resists feathering and fading.",
+    "primaryImage": "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-02.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-02.jpeg"
+    ],
+    "shades": [
+      "Board Meeting (Cinnamon Mocha)"
+    ],
+    "colors": [
+      {
+        "name": "Board Meeting",
+        "hex": "#9b5a4d"
+      }
+    ],
+    "sizes": [
+      "3g / 0.1 oz"
+    ],
+    "variants": [
+      "Matte Bullet"
+    ],
+    "specifications": {
+      "Formulation": "Bullet Lipstick",
+      "Finish": "Velvet Matte",
+      "Color Family": "Warm Terracotta / Mocha",
+      "Application": "Diamond-Cut Tip"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "huda-beauty-power-bullet-ladies-night",
+    "name": "Power Bullet Matte Lipstick - Ladies Night (Bold Burgundy Berry)",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "Sensual bold berry wine lipstick designed for evening glamour.",
+    "description": "Ladies Night commands attention with its deep, dramatic wine-red depth. Glides effortlessly across lips with intense chromatic impact and long-wearing satin-matte comfort.",
+    "primaryImage": "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-03.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-03.jpeg"
+    ],
+    "shades": [
+      "Ladies Night (Deep Burgundy)"
+    ],
+    "colors": [
+      {
+        "name": "Ladies Night",
+        "hex": "#7a2b36"
+      }
+    ],
+    "sizes": [
+      "3g / 0.1 oz"
+    ],
+    "variants": [
+      "Matte Bullet"
+    ],
+    "specifications": {
+      "Formulation": "Bullet Lipstick",
+      "Finish": "Deep Matte",
+      "Color Family": "Berry & Wine",
+      "Wear": "Long-wearing"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "huda-beauty-power-bullet-third-date",
+    "name": "Power Bullet Matte Lipstick - Third Date (Rosewood Mauve)",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "Flattering rosewood pink shade offering effortless everyday sophistication.",
+    "description": "Third Date is the romantic rosewood nude shade you'll reach for daily. Perfectly balanced undertones complement neutral, warm, and cool complexions seamlessly.",
+    "primaryImage": "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-04.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-04.jpeg"
+    ],
+    "shades": [
+      "Third Date (Rosewood)"
+    ],
+    "colors": [
+      {
+        "name": "Third Date",
+        "hex": "#a45d61"
+      }
+    ],
+    "sizes": [
+      "3g / 0.1 oz"
+    ],
+    "variants": [
+      "Matte Bullet"
+    ],
+    "specifications": {
+      "Formulation": "Bullet Lipstick",
+      "Finish": "Satin Velvet Matte",
+      "Undertone": "Neutral Rosewood"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": true,
+    "featured": false
+  },
+  {
+    "id": "huda-beauty-power-bullet-rendez-vous",
+    "name": "Power Bullet Matte Lipstick - Rendez-Vous (Dusty Pink Coral)",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "Youthful dusty coral-pink matte lipstick with instant brightening effect.",
+    "description": "A soft, romantic blush-coral that instantly refreshes your complexion. Formulated with saturated pigments for full coverage in a single gentle glide.",
+    "primaryImage": "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-05.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-05.jpeg"
+    ],
+    "shades": [
+      "Rendez-Vous (Dusty Pink Coral)"
+    ],
+    "colors": [
+      {
+        "name": "Rendez-Vous",
+        "hex": "#b56968"
+      }
+    ],
+    "sizes": [
+      "3g / 0.1 oz"
+    ],
+    "variants": [
+      "Matte Bullet"
+    ],
+    "specifications": {
+      "Formulation": "Bullet Lipstick",
+      "Finish": "Velvet Matte",
+      "Color Family": "Pink Coral"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "huda-beauty-power-bullet-prom-night",
+    "name": "Power Bullet Matte Lipstick - Prom Night (Luxe Rosy Coral)",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "Elegant, lively pink-coral lipstick for special occasions and celebrations.",
+    "description": "Prom Night is a radiant, celebratory rose hue with soft coral undertones. Delivers an ultra-creamy application that dries down to a powdery velvet matte touch.",
+    "primaryImage": "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-06.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-06.jpeg"
+    ],
+    "shades": [
+      "Prom Night (Rosy Coral)"
+    ],
+    "colors": [
+      {
+        "name": "Prom Night",
+        "hex": "#c8676d"
+      }
+    ],
+    "sizes": [
+      "3g / 0.1 oz"
+    ],
+    "variants": [
+      "Matte Bullet"
+    ],
+    "specifications": {
+      "Formulation": "Bullet Lipstick",
+      "Finish": "Ultra-Pigmented Matte"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "huda-beauty-power-bullet-el-cinco",
+    "name": "Power Bullet Matte Lipstick - El Cinco De Mayo (Fiery Scarlet Red)",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "Showstopping warm scarlet red lipstick with breathtaking pigment intensity.",
+    "description": "The quintessential power red. El Cinco De Mayo delivers an explosive pop of color that elevates any makeup look. Transfer-resistant with a clean, razor-sharp edge.",
+    "primaryImage": "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-07.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-07.jpeg"
+    ],
+    "shades": [
+      "El Cinco De Mayo (Scarlet Red)"
+    ],
+    "colors": [
+      {
+        "name": "El Cinco De Mayo",
+        "hex": "#a6242c"
+      }
+    ],
+    "sizes": [
+      "3g / 0.1 oz"
+    ],
+    "variants": [
+      "Matte Bullet"
+    ],
+    "specifications": {
+      "Formulation": "Bullet Lipstick",
+      "Finish": "Bold Matte",
+      "Color Family": "Classic Red"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "huda-beauty-habibti-lip-duo",
+    "name": "Habibti Lip Contour & Liquid Matte Lip Duo Set",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "beauty-kits",
+    "subcategory": "Lip Kits & Duos",
+    "shortDescription": "Exclusive 2-piece set containing full-size lip contour pencil and long-wear liquid matte lipstick.",
+    "description": "Curated to create the signature Huda pout. Features a glide-on lip contour liner pencil to sculpt and define, paired with a lightweight, comfortable liquid matte lipstick that stays vibrant for hours.",
+    "primaryImage": "assets/products/beauty-kits/huda-beauty-habibti-liquid-matte-lip-duo.jpeg",
+    "images": [
+      "assets/products/beauty-kits/huda-beauty-habibti-liquid-matte-lip-duo.jpeg"
+    ],
+    "shades": [
+      "Habibti Rosewood",
+      "Bombshell Nude"
+    ],
+    "colors": [
+      {
+        "name": "Habibti Rosewood",
+        "hex": "#9d5257"
+      },
+      {
+        "name": "Bombshell Nude",
+        "hex": "#b87872"
+      }
+    ],
+    "sizes": [
+      "2-Piece Kit"
+    ],
+    "variants": [
+      "Standard Duo Set"
+    ],
+    "specifications": {
+      "Contents": "1x Lip Contour Pencil + 1x Liquid Matte Lipstick",
+      "Finish": "Velvety Matte",
+      "Wear Time": "8+ Hours",
+      "Special Edition": "Habibti Collection"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": true,
+    "featured": true
+  },
+  {
+    "id": "huda-beauty-silk-balm-lip-gloss",
+    "name": "Silk Balm Hydrating Plumping Lip Gloss",
+    "brand": "Huda Beauty",
+    "brandSlug": "huda-beauty",
+    "category": "makeup",
+    "subcategory": "Lip Gloss",
+    "shortDescription": "Infused with hyaluronic filling spheres for high-shine hydration and subtle plumping.",
+    "description": "A comfortable, non-sticky liquid balm gloss packed with soothing botanical actives, soybean extract, and licorice. Glides on to cushion lips in glassy shine and instant moisture.",
+    "primaryImage": "assets/products/makeup/huda-beauty-silk-balm-hydrating-lip-gloss.jpeg",
+    "images": [
+      "assets/products/makeup/huda-beauty-silk-balm-hydrating-lip-gloss.jpeg",
+      "assets/products/makeup/huda-beauty-nude-sheen-lip-gloss.jpeg"
+    ],
+    "shades": [
+      "Blush Glaze",
+      "Nude Sheen"
+    ],
+    "colors": [
+      {
+        "name": "Blush Glaze",
+        "hex": "#f0b6ba"
+      },
+      {
+        "name": "Nude Sheen",
+        "hex": "#dab09f"
+      }
+    ],
+    "sizes": [
+      "3ml / 0.1 fl oz"
+    ],
+    "variants": [
+      "High-Shine Gloss"
+    ],
+    "specifications": {
+      "Formulation": "Hydrating Liquid Gloss Balm",
+      "Key Actives": "Hyaluronic Spheres, Soybean Extract",
+      "Texture": "Non-Sticky Cushion",
+      "Finish": "Glass Mirror Shine"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "nars-orgasm-powder-blush",
+    "name": "Next Level Formula Powder Blush - Orgasm",
+    "brand": "NARS",
+    "brandSlug": "nars",
+    "category": "makeup",
+    "subcategory": "Blush",
+    "shortDescription": "The globally acclaimed peachy-pink blush with fine golden shimmer.",
+    "description": "NARS' legendary blush formula provides a natural, healthy-looking flush of color that enlivens any complexion. Micronized powder pigments guarantee soft, blendable application with iconic gold reflex.",
+    "primaryImage": "assets/products/makeup/nars-next-level-formula-powder-blush.jpeg",
+    "images": [
+      "assets/products/makeup/nars-next-level-formula-powder-blush.jpeg",
+      "assets/products/makeup/nars-orgasm-classic-blush.jpeg"
+    ],
+    "shades": [
+      "Orgasm (Peachy Pink with Gold Shimmer)",
+      "Dolce Vita (Matte Dusty Rose)",
+      "Deep Throat (Soft Pink)"
+    ],
+    "colors": [
+      {
+        "name": "Orgasm",
+        "hex": "#f69588"
+      },
+      {
+        "name": "Dolce Vita",
+        "hex": "#b4646a"
+      },
+      {
+        "name": "Deep Throat",
+        "hex": "#f18d84"
+      }
+    ],
+    "sizes": [
+      "4.8g / 0.16 oz"
+    ],
+    "variants": [
+      "Powder Blush Compact"
+    ],
+    "specifications": {
+      "Formulation": "Pressed Powder",
+      "Coverage": "Buildable Sheer to Medium",
+      "Finish": "Luminous Shimmer",
+      "Origin": "USA / France"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "nars-sculpt-glow-contour-palette",
+    "name": "Contour, Highlight & Cheek Sculpting Palette Kit",
+    "brand": "NARS",
+    "brandSlug": "nars",
+    "category": "beauty-kits",
+    "subcategory": "Contour & Cheek Kits",
+    "shortDescription": "Multi-dimensional cheek palette featuring contour powders, luminous bronzer, and radiant blush.",
+    "description": "Designed for effortless face sculpting. Includes NARS' cult-favorite Laguna bronzer, warm highlighting powders, and sculpting tones that chisel cheekbones and impart a sun-kissed warmth.",
+    "primaryImage": "assets/products/beauty-kits/nars-sculpt-glow-contour-highlight-palette.jpeg",
+    "images": [
+      "assets/products/beauty-kits/nars-sculpt-glow-contour-highlight-palette.jpeg",
+      "assets/products/beauty-kits/nars-contour-and-bronze-cheek-kit-duo.jpeg",
+      "assets/products/beauty-kits/nars-pro-palette-cheek-sculpting-quad.jpeg"
+    ],
+    "shades": [
+      "Laguna Bronze & Orgasm Glow",
+      "Medium-Deep Sculpt",
+      "Fair-Light Glow"
+    ],
+    "colors": [
+      {
+        "name": "Laguna Bronze",
+        "hex": "#a87a55"
+      },
+      {
+        "name": "Orgasm Glow",
+        "hex": "#f69588"
+      },
+      {
+        "name": "Opal Highlight",
+        "hex": "#fbebdc"
+      }
+    ],
+    "sizes": [
+      "Cheek Palette Compact"
+    ],
+    "variants": [
+      "4-Pan Palette",
+      "2-Pan Sculpt Duo"
+    ],
+    "specifications": {
+      "Formulation": "Pressed Powder Multi-Palette",
+      "Pan Count": "Multi-shade compact",
+      "Includes": "Bronzer, Highlighter, Sculpting Blush",
+      "Skin Tones": "Universal Blend"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "nars-afterglow-lip-shine-gloss",
+    "name": "Afterglow Lip Shine Hydrating Mirror Lip Gloss",
+    "brand": "NARS",
+    "brandSlug": "nars",
+    "category": "makeup",
+    "subcategory": "Lip Gloss",
+    "shortDescription": "Comfortable high-shine lip gloss enriched with pomegranate flower extract and jojoba oil.",
+    "description": "Drench lips in glossy, mirror-like color and eight hours of continuous hydration. Features a custom applicator that distributes optimal pigment for a pillowy, reflective pout.",
+    "primaryImage": "assets/products/makeup/nars-afterglow-lip-shine-gloss-sheer.jpeg",
+    "images": [
+      "assets/products/makeup/nars-afterglow-lip-shine-gloss-sheer.jpeg",
+      "assets/products/makeup/nars-afterglow-lip-shine-gloss-rose.jpeg"
+    ],
+    "shades": [
+      "Orgasm (Sheer Peachy Pink Shimmer)",
+      "Turkish Delight (Soft Pink)",
+      "Nympho (Cool Taupe)"
+    ],
+    "colors": [
+      {
+        "name": "Orgasm",
+        "hex": "#f7a59d"
+      },
+      {
+        "name": "Turkish Delight",
+        "hex": "#f4c6cc"
+      }
+    ],
+    "sizes": [
+      "5.5ml / 0.17 fl oz"
+    ],
+    "variants": [
+      "Mirror Gloss"
+    ],
+    "specifications": {
+      "Formulation": "Liquid Lip Gloss",
+      "Finish": "Mirror Shine with Micro Shimmer",
+      "Key Actives": "Pomegranate Flower Complex, Jojoba Oil",
+      "Hydration": "Up to 8 Hours"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": true,
+    "featured": false
+  },
+  {
+    "id": "mac-studio-fix-powder-foundation",
+    "name": "Studio Fix Powder Plus Foundation - Velvet Matte",
+    "brand": "MAC Cosmetics",
+    "brandSlug": "mac-cosmetics",
+    "category": "makeup",
+    "subcategory": "Face Powder",
+    "shortDescription": "A one-step powder and foundation that gives skin a smooth, ultra-matte finish with medium-to-full coverage.",
+    "description": "MAC's iconic compact powder controls shine and oil for 12 hours while creating a velvety, poreless complexion. Breathable, non-caking, and resistant to sweat and humidity.",
+    "primaryImage": "assets/products/makeup/mac-studio-fix-powder-plus-foundation.jpeg",
+    "images": [
+      "assets/products/makeup/mac-studio-fix-powder-plus-foundation.jpeg"
+    ],
+    "shades": [
+      "NC15",
+      "NC20",
+      "NC25",
+      "NC30",
+      "NC35",
+      "NC40",
+      "NW20",
+      "NW25"
+    ],
+    "colors": [
+      {
+        "name": "NC15",
+        "hex": "#f6e4d5"
+      },
+      {
+        "name": "NC25",
+        "hex": "#ebd0b7"
+      },
+      {
+        "name": "NC35",
+        "hex": "#ddb493"
+      }
+    ],
+    "sizes": [
+      "15g / 0.52 oz"
+    ],
+    "variants": [
+      "Velvet Matte Compact"
+    ],
+    "specifications": {
+      "Formulation": "Pressed Powder Compact",
+      "Coverage": "Medium to Full Buildable",
+      "Finish": "Ultra-Matte",
+      "Oil Control": "12 Hours",
+      "Included": "Application Sponge & Mirror"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "mac-strobe-cream-hydratant",
+    "name": "Strobe Cream Hydratant Lumineux Illuminating Primer",
+    "brand": "MAC Cosmetics",
+    "brandSlug": "mac-cosmetics",
+    "category": "makeup",
+    "subcategory": "Primers & Illuminators",
+    "shortDescription": "The ultimate quick fix for skin, boosting tired skin with iridescent particles and vitamins.",
+    "description": "Powered by potent botanicals, green tea, and iridescent pearl particles, MAC Strobe Cream enhances the effects of light on all skin tones, creating a dewy, candlelit glow under makeup or worn alone.",
+    "primaryImage": "assets/products/makeup/mac-strobe-cream-hydratant-lumineux.jpeg",
+    "images": [
+      "assets/products/makeup/mac-strobe-cream-hydratant-lumineux.jpeg"
+    ],
+    "shades": [
+      "Pinklite (Original Pink Pearl)",
+      "Goldlite (Warm Gold Glow)"
+    ],
+    "colors": [
+      {
+        "name": "Pinklite",
+        "hex": "#fae7e6"
+      },
+      {
+        "name": "Goldlite",
+        "hex": "#f7eed4"
+      }
+    ],
+    "sizes": [
+      "50ml / 1.7 fl oz"
+    ],
+    "variants": [
+      "Illuminating Moisturizer"
+    ],
+    "specifications": {
+      "Formulation": "Cream Moisturizer & Primer",
+      "Finish": "Radiant Dewy Glow",
+      "Skin Type": "All Skin Types",
+      "Key Actives": "Green Tea, Vitamins, Pearlescent Pigments"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "loreal-paris-double-extension-mascara",
+    "name": "Double Extension Beauty Tubes 2-in-1 Lengthening Mascara",
+    "brand": "L'Oréal Paris",
+    "brandSlug": "loreal-paris",
+    "category": "makeup",
+    "subcategory": "Mascara",
+    "shortDescription": "Two-step conditioning base coat and carbon-black tubing mascara for ultra-extended lashes.",
+    "description": "Step 1 conditions lashes with Ceramide R and Provitamin B5. Step 2 wraps lashes in smudge-proof tubes that visibly lengthen lashes up to 80% without flaking, running, or clumping.",
+    "primaryImage": "assets/products/makeup/loreal-paris-double-extension-2-in-1-mascara.jpeg",
+    "images": [
+      "assets/products/makeup/loreal-paris-double-extension-2-in-1-mascara.jpeg"
+    ],
+    "shades": [
+      "Extra Black"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "2 x 6ml"
+    ],
+    "variants": [
+      "2-in-1 Tubing Formula"
+    ],
+    "specifications": {
+      "Formulation": "Two-Step Mascara",
+      "Step 1": "Conditioning White Base Primer",
+      "Step 2": "Carbon Black Tubing Extension",
+      "Removal": "Warm Water Washable"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "loreal-paris-infallible-concealer",
+    "name": "Infallible Full Wear Waterproof Concealer (24H Coverage)",
+    "brand": "L'Oréal Paris",
+    "brandSlug": "loreal-paris",
+    "category": "makeup",
+    "subcategory": "Concealers",
+    "shortDescription": "Ultra-pigmented full-coverage concealer with extra-large applicator wand.",
+    "description": "Conceals dark circles, blemishes, and discoloration in a single swipe. The waterproof, non-greasy formula does not crease, cake, or settle into fine lines for up to 24 hours.",
+    "primaryImage": "assets/products/makeup/loreal-paris-infallible-full-wear-concealer.jpeg",
+    "images": [
+      "assets/products/makeup/loreal-paris-infallible-full-wear-concealer.jpeg"
+    ],
+    "shades": [
+      "Ivory 305",
+      "Vanilla 310",
+      "Fawn 325",
+      "Caramel 330"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f3e1d1"
+      },
+      {
+        "name": "Vanilla",
+        "hex": "#e7ceba"
+      },
+      {
+        "name": "Fawn",
+        "hex": "#dcbfa6"
+      }
+    ],
+    "sizes": [
+      "10ml / 0.33 fl oz"
+    ],
+    "variants": [
+      "Full Wear Wand"
+    ],
+    "specifications": {
+      "Formulation": "Liquid Concealer",
+      "Coverage": "Maximum Full Coverage",
+      "Finish": "Natural Matte",
+      "Waterproof": "Yes (24H wear)"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "elf-flawless-finish-matte-foundation",
+    "name": "Flawless Finish Matte Liquid Foundation",
+    "brand": "e.l.f. Cosmetics",
+    "brandSlug": "elf-cosmetics",
+    "category": "makeup",
+    "subcategory": "Foundation",
+    "shortDescription": "Lightweight liquid foundation that blends seamlessly into skin for a satin-matte semi-matte finish.",
+    "description": "Enriched with glycerin to hydrate and soften skin. Improves uneven skin tone and texture, giving an oil-free, all-day semi-matte look that feels weightless on the skin.",
+    "primaryImage": "assets/products/makeup/elf-flawless-finish-foundation-matte.jpeg",
+    "images": [
+      "assets/products/makeup/elf-flawless-finish-foundation-matte.jpeg",
+      "assets/products/makeup/elf-flawless-foundation-oil-free-nude.jpeg",
+      "assets/products/makeup/elf-beautifully-bare-foundation-serum.jpeg"
+    ],
+    "shades": [
+      "Natural / Nude",
+      "Buff",
+      "Beige",
+      "Sand"
+    ],
+    "colors": [
+      {
+        "name": "Nude",
+        "hex": "#edd0b9"
+      },
+      {
+        "name": "Buff",
+        "hex": "#e4c2a5"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d5af8e"
+      }
+    ],
+    "sizes": [
+      "20ml / 0.68 fl oz"
+    ],
+    "variants": [
+      "Oil-Free Matte"
+    ],
+    "specifications": {
+      "Formulation": "Liquid Foundation",
+      "Finish": "Semi-Matte Satin",
+      "Coverage": "Medium Buildable",
+      "Cruelty-Free": "100% Vegan & Cruelty-Free"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "elf-professional-brush-kit",
+    "name": "Professional Face & Eye Makeup Brush Set (Complete Kit)",
+    "brand": "e.l.f. Cosmetics",
+    "brandSlug": "elf-cosmetics",
+    "category": "accessories",
+    "subcategory": "Makeup Brushes & Tools",
+    "shortDescription": "Expert collection of super-soft synthetic bristles for flawless blending and powder application.",
+    "description": "Features precision brushes for foundation, contouring, blush, eyeshadow shading, crease blending, and eyeliner. 100% cruelty-free synthetic bristles that pick up optimal product without absorbing excess liquid.",
+    "primaryImage": "assets/products/accessories/elf-professional-brush-kit.jpeg",
+    "images": [
+      "assets/products/accessories/elf-professional-brush-kit.jpeg"
+    ],
+    "shades": [
+      "Classic Black Handles"
+    ],
+    "colors": [
+      {
+        "name": "Classic Black",
+        "hex": "#1c1c1c"
+      }
+    ],
+    "sizes": [
+      "Multi-Brush Set"
+    ],
+    "variants": [
+      "Synthetic Bristle Collection"
+    ],
+    "specifications": {
+      "Bristle Material": "Ultra-Fine Synthetic Taklon",
+      "Handle Material": "Ergonomic Hardwood",
+      "Included Brushes": "Powder Brush, Blush Brush, Angled Foundation, Eye Shader, Crease Blender",
+      "Cruelty-Free": "PETA Certified Vegan"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "real-techniques-ultimate-base-set",
+    "name": "Sam & Nic Ultimate Base Precision Makeup Brush Set",
+    "brand": "Real Techniques",
+    "brandSlug": "real-techniques",
+    "category": "accessories",
+    "subcategory": "Makeup Brushes & Tools",
+    "shortDescription": "Professional base brush kit crafted for streak-free foundation, concealer, and contouring.",
+    "description": "Engineered by celebrity makeup artists Sam & Nic Chapman. Custom-cut bristle heads deliver seamless foundation buffing, detailed spot concealing, and effortless cheek sculpting.",
+    "primaryImage": "assets/products/accessories/real-techniques-sam-nic-ultimate-base-brush-set.jpeg",
+    "images": [
+      "assets/products/accessories/real-techniques-sam-nic-ultimate-base-brush-set.jpeg"
+    ],
+    "shades": [
+      "Metallic Gold Handles"
+    ],
+    "colors": [
+      {
+        "name": "Gold / Copper",
+        "hex": "#cfa268"
+      }
+    ],
+    "sizes": [
+      "4-Piece Set + Case"
+    ],
+    "variants": [
+      "Base Set"
+    ],
+    "specifications": {
+      "Bristle Type": "UltraPlush Synthetic Bristles",
+      "Ferrules": "Extended Aluminum Ferrules",
+      "Designers": "Sam & Nic Chapman",
+      "Cleaning": "Easy-to-clean synthetic fibres"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "the-ordinary-glycolic-acid-toner",
+    "name": "Glycolic Acid 7% Exfoliating Toning Solution",
+    "brand": "The Ordinary",
+    "brandSlug": "the-ordinary",
+    "category": "skincare",
+    "subcategory": "Toner & Exfoliating Pads",
+    "shortDescription": "Targeted direct acid toner that visibly boosts skin radiance and refines uneven texture.",
+    "description": "A water-based toner formulated with 7% glycolic acid (an alpha hydroxy acid) and Tasmanian pepperberry derivative to help reduce irritation associated with acid use. Daily application helps smooth skin clarity and texture over time.",
+    "primaryImage": "assets/products/skincare/the-ordinary-glycolic-acid-7-percent-toner.jpeg",
+    "images": [
+      "assets/products/skincare/the-ordinary-glycolic-acid-7-percent-toner.jpeg"
+    ],
+    "shades": [
+      "Clear Solution"
+    ],
+    "colors": [
+      {
+        "name": "Translucent Amber",
+        "hex": "#f6ede2"
+      }
+    ],
+    "sizes": [
+      "240ml / 8.1 fl oz"
+    ],
+    "variants": [
+      "Standard Bottle with Twist Cap"
+    ],
+    "specifications": {
+      "Formulation": "Water-Based Liquid Toner",
+      "Active Concentration": "7% Glycolic Acid (AHA)",
+      "pH Level": "3.5 - 3.7",
+      "Key Botanicals": "Tasmanian Pepperberry, Aloe Vera, Ginseng Root",
+      "Skin Benefit": "Exfoliation, Radiance, Texture Refining"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "anua-heartleaf-77-clear-pad",
+    "name": "Heartleaf 77% Clear Pad (Calming & Exfoliating Toner Pads)",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "category": "skincare",
+    "subcategory": "Toner & Exfoliating Pads",
+    "shortDescription": "Korea's viral calming toner pad soaked in 77% Houttuynia Cordata extract to soothe redness.",
+    "description": "A dual-sided toner pad featuring embossed and smooth surfaces. Formulated with 77% Heartleaf extract harvested in Korea to calm sensitive skin, regulate excess sebum production, and tighten visible pores without stripping moisture.",
+    "primaryImage": "assets/products/skincare/anua-heartleaf-77-clear-pad.jpeg",
+    "images": [
+      "assets/products/skincare/anua-heartleaf-77-clear-pad.jpeg"
+    ],
+    "shades": [
+      "70 Pre-Soaked Pads"
+    ],
+    "colors": [
+      {
+        "name": "Botanical Clear",
+        "hex": "#eef4ec"
+      }
+    ],
+    "sizes": [
+      "160ml / 70 Cotton Pads"
+    ],
+    "variants": [
+      "Dual-Textured Jar"
+    ],
+    "specifications": {
+      "Formulation": "Pre-Soaked Hypoallergenic Cotton Pads",
+      "Main Ingredient": "77% Houttuynia Cordata (Heartleaf) Extract",
+      "Origin": "Seoul, South Korea (K-Beauty)",
+      "Skin Concerns": "Redness, Acne-Prone, Irritation, Enlarged Pores"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": true,
+    "featured": true
+  },
+  {
+    "id": "skin1004-centella-probio-cica-ampoule",
+    "name": "Madagascar Centella Probio-Cica Intensive Ampoule",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "category": "skincare",
+    "subcategory": "Serums & Ampoules",
+    "shortDescription": "Fermented Madagascar Centella and vegan ceramides to deeply repair compromised skin barriers.",
+    "description": "This rich, milky ampoule combines fermented Centella Asiatica with TECA (Titrated Extract of Centella Asiatica) and skin-identical ceramides. Dramatically strengthens weakened skin barriers, calms sensitivity, and restores supple elasticity.",
+    "primaryImage": "assets/products/skincare/skin1004-centella-probio-cica-ampoule.jpeg",
+    "images": [
+      "assets/products/skincare/skin1004-centella-probio-cica-ampoule.jpeg",
+      "assets/products/skincare/skin1004-centella-tea-trica-relief-ampoule.jpeg"
+    ],
+    "shades": [
+      "Milky Ampoule"
+    ],
+    "colors": [
+      {
+        "name": "Creamy White",
+        "hex": "#fcf8f4"
+      }
+    ],
+    "sizes": [
+      "50ml / 1.69 fl oz"
+    ],
+    "variants": [
+      "Dropper Bottle"
+    ],
+    "specifications": {
+      "Formulation": "Concentrated Fermented Ampoule",
+      "Key Actives": "Fermented Madagascar Centella, Ceramide NP, TECA",
+      "Skin Benefit": "Barrier Repair, Elasticity, Deep Nourishment",
+      "Skin Type": "Dry, Sensitive, Damaged Skin"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": true,
+    "featured": true
+  },
+  {
+    "id": "skin1004-tea-trica-relief-ampoule",
+    "name": "Madagascar Centella Tea-Trica Relief Ampoule (Acne Care)",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "category": "skincare",
+    "subcategory": "Serums & Ampoules",
+    "shortDescription": "Instant soothing ampoule infused with Tea Tree Leaf Water and Centella for irritated and blemish-prone skin.",
+    "description": "Formulated with Pine Tree Complex and Centella Asiatica to quickly relieve inflamed breakouts and rebalance moisture. Light, non-comedogenic liquid texture absorbs instantly without oily residue.",
+    "primaryImage": "assets/products/skincare/skin1004-centella-tea-trica-relief-ampoule.jpeg",
+    "images": [
+      "assets/products/skincare/skin1004-centella-tea-trica-relief-ampoule.jpeg"
+    ],
+    "shades": [
+      "Refreshing Greenish Drop"
+    ],
+    "colors": [
+      {
+        "name": "Tea Green Tint",
+        "hex": "#e7efe3"
+      }
+    ],
+    "sizes": [
+      "100ml / 3.38 fl oz"
+    ],
+    "variants": [
+      "Large Dropper Bottle"
+    ],
+    "specifications": {
+      "Formulation": "Water-Gel Lightweight Ampoule",
+      "Key Actives": "Tea Tree Leaf Water, Centella Asiatica, Pine Tree Extract",
+      "Benefit": "Anti-Blemish, Pore Refining, Soothing",
+      "Non-Comedogenic": "Tested"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "cetaphil-oil-to-foam-cleanser",
+    "name": "Nourishing Oil-to-Foam Cleanser with Prebiotics & Aloe",
+    "brand": "Cetaphil",
+    "brandSlug": "cetaphil",
+    "category": "skincare",
+    "subcategory": "Face Wash & Cleansers",
+    "shortDescription": "Transforms from a rich oil to gentle foam to dissolve makeup and grime without stripping natural moisture.",
+    "description": "Formulated for dry to normal, sensitive skin. Enriched with soothing aloe vera, nourishing prebiotics, and essential vitamins B3 and provitamin B5 to preserve the skin's natural microbiome and moisture balance.",
+    "primaryImage": "assets/products/skincare/cetaphil-nourishing-oil-to-foam-cleanser.jpeg",
+    "images": [
+      "assets/products/skincare/cetaphil-nourishing-oil-to-foam-cleanser.jpeg"
+    ],
+    "shades": [
+      "Clear Nourishing Oil"
+    ],
+    "colors": [
+      {
+        "name": "Golden Amber",
+        "hex": "#fbe4bc"
+      }
+    ],
+    "sizes": [
+      "237ml / 8 fl oz"
+    ],
+    "variants": [
+      "Pump Bottle"
+    ],
+    "specifications": {
+      "Formulation": "Transforming Oil-to-Foam",
+      "Skin Type": "Dry, Normal, Sensitive Skin",
+      "Dermatologist Tested": "Hypoallergenic, Paraben-Free, Fragrance-Free",
+      "Key Actives": "Aloe Vera, Prebiotic complex, Vitamin B3 & B5"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": true,
+    "featured": false
+  },
+  {
+    "id": "neutrogena-hydro-boost-micellar-water",
+    "name": "Hydro Boost 3-in-1 Micellar Cleansing Water (400ml)",
+    "brand": "Neutrogena",
+    "brandSlug": "neutrogena",
+    "category": "skincare",
+    "subcategory": "Face Wash & Cleansers",
+    "shortDescription": "Gently removes stubborn waterproof makeup, cleanses dirt, and quenches thirsty skin with Hyaluronic Acid.",
+    "description": "Powered by triple micellar technology and hyaluronic acid. Leaves skin feeling remarkably clean, refreshed, and soft without any stinging or oily film.",
+    "primaryImage": "assets/products/skincare/neutrogena-hydro-boost-3-in-1-micellar-water.jpeg",
+    "images": [
+      "assets/products/skincare/neutrogena-hydro-boost-3-in-1-micellar-water.jpeg"
+    ],
+    "shades": [
+      "Clear Micellar Solution"
+    ],
+    "colors": [
+      {
+        "name": "Aqua Blue",
+        "hex": "#e2f2fb"
+      }
+    ],
+    "sizes": [
+      "400ml / 13.5 fl oz"
+    ],
+    "variants": [
+      "Jumbo Bottle"
+    ],
+    "specifications": {
+      "Formulation": "Triple Micellar Water",
+      "Active Ingredient": "Purified Hyaluronic Acid",
+      "Rinse Required": "No Rinse Formula",
+      "Ophthalmologist Tested": "Safe for Sensitive Eyes"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "neutrogena-hydro-boost-mask-sachet",
+    "name": "Hydro Boost Hydrating Hydrogel Face Sheet Mask Sachet",
+    "brand": "Neutrogena",
+    "brandSlug": "neutrogena",
+    "category": "skincare",
+    "subcategory": "Face Masks",
+    "shortDescription": "100% hydrogel mask contours to face and delivers equivalent of 1 bottle of serum in 15 minutes.",
+    "description": "An intensive hydrating treatment that holds up to 50% more essence than standard paper sheet masks. Cools on contact and infuses skin with moisture-binding hyaluronic acid.",
+    "primaryImage": "assets/products/skincare/neutrogena-hydro-boost-water-gel-mask-sachet.jpeg",
+    "images": [
+      "assets/products/skincare/neutrogena-hydro-boost-water-gel-mask-sachet.jpeg"
+    ],
+    "shades": [
+      "Single Sheet Sachet"
+    ],
+    "colors": [
+      {
+        "name": "Hydro Blue",
+        "hex": "#d5ebfb"
+      }
+    ],
+    "sizes": [
+      "30g Single Treatment"
+    ],
+    "variants": [
+      "Hydrogel Sachet"
+    ],
+    "specifications": {
+      "Mask Material": "100% Gel Hydrogel Structure",
+      "Key Ingredient": "Pure Hyaluronic Acid Essence",
+      "Application Time": "15 to 30 Minutes",
+      "Result": "Intensely Hydrated, Plumped Skin"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "embryolisse-lait-creme-concentre",
+    "name": "Lait-Crème Concentré Multi-Function Cream & Makeup Base",
+    "brand": "Embryolisse",
+    "brandSlug": "embryolisse",
+    "category": "skincare",
+    "subcategory": "Moisturizers & Primers",
+    "shortDescription": "Legendary 6-in-1 French pharmacy moisturizer, makeup primer, moisturizing mask, and cleanser milk.",
+    "description": "Celebrated by makeup artists worldwide. Formulated with shea butter, beeswax, soy proteins, and aloe vera. Restores suppleness, primes skin perfectly for seamless foundation adherence, and relieves dry patches.",
+    "primaryImage": "assets/products/skincare/embryolisse-lait-creme-concentre-multi-function.jpeg",
+    "images": [
+      "assets/products/skincare/embryolisse-lait-creme-concentre-multi-function.jpeg"
+    ],
+    "shades": [
+      "Rich Cream"
+    ],
+    "colors": [
+      {
+        "name": "Pure Ivory",
+        "hex": "#fffdf9"
+      }
+    ],
+    "sizes": [
+      "75ml / 2.54 fl oz"
+    ],
+    "variants": [
+      "Aluminum Tube"
+    ],
+    "specifications": {
+      "Formulation": "Nourishing Multi-Purpose Cream",
+      "Functions": "Moisturizer, Primer, Mask, Cleanser, After-Sun",
+      "Country of Origin": "France (Parisian Pharmacy Cult Classic)",
+      "Key Actives": "Shea Butter, Beeswax, Soy Protein, Aloe"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "pixi-hydrating-milky-peel",
+    "name": "Hydrating Milky Peel Gentle Smoothing Face Polish",
+    "brand": "Pixi",
+    "brandSlug": "pixi",
+    "category": "skincare",
+    "subcategory": "Face Masks & Scrubs",
+    "shortDescription": "Micro-peeling cream that gently lifts away dead surface skin cells and impurities for baby-soft skin.",
+    "description": "Infused with coconut, arginine, and cellulose to gently polish away dull skin without abrasive scratching. Soothes delicate skin while revealing a brighter, clearer, refined complexion.",
+    "primaryImage": "assets/products/skincare/pixi-hydrating-milky-peel-micro-exfoliator.jpeg",
+    "images": [
+      "assets/products/skincare/pixi-hydrating-milky-peel-micro-exfoliator.jpeg"
+    ],
+    "shades": [
+      "Milky Exfoliating Gel"
+    ],
+    "colors": [
+      {
+        "name": "Creamy Mint",
+        "hex": "#eff6f1"
+      }
+    ],
+    "sizes": [
+      "80ml / 2.7 fl oz"
+    ],
+    "variants": [
+      "Soft Squeeze Tube"
+    ],
+    "specifications": {
+      "Formulation": "Micro-Exfoliating Cream Polish",
+      "Key Botanicals": "Coconut Extract, Willow Bark, Cellulose",
+      "Frequency": "2-3 Times Weekly",
+      "Skin Type": "All Skin Types including Sensitive"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "pixi-on-the-glow-blush-stick",
+    "name": "On-The-Glow Tinted Moisture Stick Blush & Lip Tint",
+    "brand": "Pixi",
+    "brandSlug": "pixi",
+    "category": "makeup",
+    "subcategory": "Blush",
+    "shortDescription": "Convenient twist-up solid tint enriched with ginseng, aloe vera, and fruit extracts for juicy cheek color.",
+    "description": "Swipe on radiant color in seconds. This hydrating cheek and lip tint delivers sheer, buildable dewiness that blends effortlessly with fingertips. Formulated without parabens and never tested on animals.",
+    "primaryImage": "assets/products/makeup/pixi-on-the-glow-tinted-moisture-stick-blush.jpeg",
+    "images": [
+      "assets/products/makeup/pixi-on-the-glow-tinted-moisture-stick-blush.jpeg"
+    ],
+    "shades": [
+      "Fleur (Soft Pink)",
+      "Juicy (Fresh Coral)",
+      "Ruby (Deep Rose Berry)"
+    ],
+    "colors": [
+      {
+        "name": "Fleur",
+        "hex": "#f098a5"
+      },
+      {
+        "name": "Juicy",
+        "hex": "#f7866d"
+      },
+      {
+        "name": "Ruby",
+        "hex": "#b53b52"
+      }
+    ],
+    "sizes": [
+      "19g / 0.6 oz"
+    ],
+    "variants": [
+      "Solid Twist-Up Moisture Stick"
+    ],
+    "specifications": {
+      "Formulation": "Solid Gel Moisture Stick",
+      "Finish": "Dewy Glass Tint",
+      "Multi-Use": "Cheeks and Lips",
+      "Actives": "Ginseng, Aloe Vera, Fruit Extracts"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": true,
+    "featured": true
+  },
+  {
+    "id": "nyx-ultimate-shadow-palette",
+    "name": "Ultimate Shadow Palette - 16 Warm Neutrals",
+    "brand": "NYX Professional Makeup",
+    "brandSlug": "nyx-professional-makeup",
+    "category": "makeup",
+    "subcategory": "Eyeshadow Palettes",
+    "shortDescription": "Pro-level 16-shade eyeshadow palette packed with warm terracottas, satins, shimmers, and velvety mattes.",
+    "description": "A pro-curated collection of warm amber, bronze, burnt copper, and matte chocolate shades. Highly blendable with minimal fallout, delivering rich color saturation for subtle daytime or dramatic smoky night looks.",
+    "primaryImage": "assets/products/makeup/nyx-ultimate-shadow-palette-warm-neutrals.jpeg",
+    "images": [
+      "assets/products/makeup/nyx-ultimate-shadow-palette-warm-neutrals.jpeg"
+    ],
+    "shades": [
+      "Warm Neutrals (16 Shades)"
+    ],
+    "colors": [
+      {
+        "name": "Warm Amber",
+        "hex": "#b5693c"
+      },
+      {
+        "name": "Terracotta",
+        "hex": "#9b452f"
+      },
+      {
+        "name": "Gilded Bronze",
+        "hex": "#8c603a"
+      },
+      {
+        "name": "Cream Satin",
+        "hex": "#f8ebd8"
+      }
+    ],
+    "sizes": [
+      "16-Pan Palette"
+    ],
+    "variants": [
+      "Pro Compact"
+    ],
+    "specifications": {
+      "Shade Count": "16 High-Pigment Shadows",
+      "Finishes": "Matte, Satin, Shimmer, Metallic",
+      "Texture": "Ultra-Velvety Blendable Powder",
+      "Cruelty-Free": "Yes"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "nyx-matte-setting-spray-duo-kit",
+    "name": "Matte & Dewy Finish 2-Piece Makeup Setting Spray Kit",
+    "brand": "NYX Professional Makeup",
+    "brandSlug": "nyx-professional-makeup",
+    "category": "beauty-kits",
+    "subcategory": "Setting Spray Kits",
+    "shortDescription": "Weightless setting mist duo that locks makeup in place with zero shine and all-day wear.",
+    "description": "The gold standard of drug-store and pro setting sprays. Prevents color fading, makeup melt, and creasing throughout humid conditions while providing a fresh, comfortable hold.",
+    "primaryImage": "assets/products/beauty-kits/nyx-matte-and-dewy-setting-spray-duo-kit.jpeg",
+    "images": [
+      "assets/products/beauty-kits/nyx-matte-and-dewy-setting-spray-duo-kit.jpeg",
+      "assets/products/makeup/nyx-matte-finish-setting-spray-long-lasting.jpeg"
+    ],
+    "shades": [
+      "Matte Finish (Black Bottle)",
+      "Dewy Glow (White Bottle)"
+    ],
+    "colors": [
+      {
+        "name": "Matte Black",
+        "hex": "#222222"
+      },
+      {
+        "name": "Dewy White",
+        "hex": "#ffffff"
+      }
+    ],
+    "sizes": [
+      "2 x 60ml Bottles"
+    ],
+    "variants": [
+      "2-Piece Setting Spray Kit",
+      "Single 60ml Bottle"
+    ],
+    "specifications": {
+      "Formulation": "Ultra-Fine Micro Mist",
+      "Finish": "Shine-Free Matte / Radiant Dewy",
+      "Hold Time": "Up to 16 Hours",
+      "Bottle Type": "Precision Pump Spray"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "dermacol-makeup-cover-foundation",
+    "name": "Make-up Cover Legendary High Coverage Waterproof Foundation",
+    "brand": "Dermacol",
+    "brandSlug": "dermacol",
+    "category": "makeup",
+    "subcategory": "Foundation",
+    "shortDescription": "Clinically tested extreme coverage foundation covering 100% of tattoos, spots, and discoloration.",
+    "description": "Originally created in Barrandov Film Studios in Prague, Dermacol Make-up Cover contains over 50% pigment. A tiny pin-drop is sufficient to cover extreme blemishes, dark spots, acne scars, and tattoos with a waterproof, velvety film.",
+    "primaryImage": "assets/products/makeup/dermacol-makeup-cover-gold-tube.jpeg",
+    "images": [
+      "assets/products/makeup/dermacol-makeup-cover-gold-tube.jpeg",
+      "assets/products/makeup/dermacol-makeup-cover-classic.jpeg"
+    ],
+    "shades": [
+      "Shade 208 (Fair)",
+      "Shade 210 (Natural Fair)",
+      "Shade 218 (Medium Warm)",
+      "Shade 221 (Warm Sand)"
+    ],
+    "colors": [
+      {
+        "name": "Shade 208",
+        "hex": "#fbe4d3"
+      },
+      {
+        "name": "Shade 210",
+        "hex": "#f1d4be"
+      },
+      {
+        "name": "Shade 218",
+        "hex": "#e2bda0"
+      }
+    ],
+    "sizes": [
+      "30g / 1.0 oz"
+    ],
+    "variants": [
+      "Gold Squeeze Tube"
+    ],
+    "specifications": {
+      "Formulation": "Dense Pigment Cream",
+      "Coverage": "Extreme Camouflage (50%+ Pigment)",
+      "Finish": "Velvety Satin",
+      "Waterproof": "Extreme Water & Sweat Resistant",
+      "Hypoallergenic": "Preservative-Free Formula"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "urban-decay-naked-cherry-palette",
+    "name": "Naked Cherry 12-Pan Ultra-Rich Eyeshadow Palette",
+    "brand": "Urban Decay",
+    "brandSlug": "urban-decay",
+    "category": "makeup",
+    "subcategory": "Eyeshadow Palettes",
+    "shortDescription": "12 sultry cherry hues ranging from soft blush ivory to deep metallic black cherry.",
+    "description": "A decadent spectrum of berry and cherry shades formulated with Urban Decay's proprietary Pigment Infusion System for velvety texture, rich color payoff, and seamless blendability. Includes full-size double-ended eyeshadow brush.",
+    "primaryImage": "assets/products/makeup/urban-decay-naked-cherry-eyeshadow-palette.jpeg",
+    "images": [
+      "assets/products/makeup/urban-decay-naked-cherry-eyeshadow-palette.jpeg"
+    ],
+    "shades": [
+      "12 Seductive Cherry Tones"
+    ],
+    "colors": [
+      {
+        "name": "Hot Spot",
+        "hex": "#faebd7"
+      },
+      {
+        "name": "Feelz",
+        "hex": "#c77579"
+      },
+      {
+        "name": "Bing",
+        "hex": "#87273a"
+      },
+      {
+        "name": "Devil",
+        "hex": "#4b1322"
+      }
+    ],
+    "sizes": [
+      "12 x 1.1g Pans + Mirror + Dual Brush"
+    ],
+    "variants": [
+      "Hard-shell Cherry Palette"
+    ],
+    "specifications": {
+      "Pan Count": "12 Full-Size Pans",
+      "Finishes": "Creamy Mattes, Shimmers, Metallics",
+      "Included": "Dual-Ended Fluffy & Precision Brush",
+      "Texture": "Ultra-Velvety Butter Powder"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "abh-carli-bybel-eyeshadow-palette",
+    "name": "Carli Bybel Limited Edition Eyeshadow & Pressed Pigment Palette",
+    "brand": "Anastasia Beverly Hills",
+    "brandSlug": "anastasia-beverly-hills",
+    "category": "makeup",
+    "subcategory": "Eyeshadow Palettes",
+    "shortDescription": "14 versatile shades featuring frosted metallics, warm taupes, and shimmering amethyst tones.",
+    "description": "Created in collaboration with iconic beauty influencer Carli Bybel. Features a curated mix of warm neutrals, duo-chromes, and soft berry pigments that transition seamlessly from daytime elegance to glamorous evening drama.",
+    "primaryImage": "assets/products/makeup/abh-carli-bybel-eyeshadow-palette.jpeg",
+    "images": [
+      "assets/products/makeup/abh-carli-bybel-eyeshadow-palette.jpeg"
+    ],
+    "shades": [
+      "14 Limited Edition Shades"
+    ],
+    "colors": [
+      {
+        "name": "Boli",
+        "hex": "#f9e7d9"
+      },
+      {
+        "name": "Mandala",
+        "hex": "#a58aa5"
+      },
+      {
+        "name": "Cindy",
+        "hex": "#ea847a"
+      },
+      {
+        "name": "Stev",
+        "hex": "#6c2633"
+      }
+    ],
+    "sizes": [
+      "14-Pan Luxe Compact + Dual Brush"
+    ],
+    "variants": [
+      "Jewel-Embossed Palette"
+    ],
+    "specifications": {
+      "Pan Count": "14 Shades",
+      "Finishes": "Matte, Duo-Chrome, Metallic, Shimmer",
+      "Pigment Quality": "Professional High-Intensity",
+      "Formula": "Cruelty-Free, Paraben-Free"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "abh-tamanna-dress-your-face-palette",
+    "name": "Tamanna 'Dress Your Face' Signature Eyeshadow Palette",
+    "brand": "Anastasia Beverly Hills",
+    "brandSlug": "anastasia-beverly-hills",
+    "category": "makeup",
+    "subcategory": "Eyeshadow Palettes",
+    "shortDescription": "World-famous collaboration palette engineered specifically for bridal, festive, and glam artistry.",
+    "description": "Curated by master makeup artist Tamanna Roashan. Rich jewel tones, deep chocolate transition shades, and shimmering gold pressed pigments designed to flatter warm and olive undertones.",
+    "primaryImage": "assets/products/makeup/abh-tamanna-dress-your-face-eyeshadow-palette.jpeg",
+    "images": [
+      "assets/products/makeup/abh-tamanna-dress-your-face-eyeshadow-palette.jpeg"
+    ],
+    "shades": [
+      "10 Signature Bridal & Glam Shades"
+    ],
+    "colors": [
+      {
+        "name": "Sangria",
+        "hex": "#7a273b"
+      },
+      {
+        "name": "Gilded",
+        "hex": "#c99a4e"
+      },
+      {
+        "name": "China Rose",
+        "hex": "#ce7677"
+      },
+      {
+        "name": "Noir",
+        "hex": "#161616"
+      }
+    ],
+    "sizes": [
+      "10-Pan Compact + Dual Brush"
+    ],
+    "variants": [
+      "Bridal Signature Palette"
+    ],
+    "specifications": {
+      "Artist Collaboration": "Tamanna Roashan (DressYourFace)",
+      "Pan Count": "10 Large Shadow Pans",
+      "Application": "Wet or Dry Pigment Application"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": true
+  },
+  {
+    "id": "morphe-avani-gregg-artistry-palette",
+    "name": "Morphe x Avani Gregg For the Bebs Artistry Palette",
+    "brand": "Morphe",
+    "brandSlug": "morphe",
+    "category": "makeup",
+    "subcategory": "Eyeshadow Palettes",
+    "shortDescription": "30 vibrant shades featuring bold pastels, electric neons, and everyday essential mattes.",
+    "description": "Dive into unlimited creative possibilities with 30 playful, high-energy shades. Soft-focus pastels meet striking jewel metallics and rich transition neutrals.",
+    "primaryImage": "assets/products/makeup/morphe-avani-gregg-eyeshadow-palette.jpeg",
+    "images": [
+      "assets/products/makeup/morphe-avani-gregg-eyeshadow-palette.jpeg"
+    ],
+    "shades": [
+      "30 Artistry Shades"
+    ],
+    "colors": [
+      {
+        "name": "Lilac Sky",
+        "hex": "#b89cd9"
+      },
+      {
+        "name": "Sunny Day",
+        "hex": "#fcd667"
+      },
+      {
+        "name": "Neon Coral",
+        "hex": "#ff6f59"
+      },
+      {
+        "name": "Deep Earth",
+        "hex": "#52372d"
+      }
+    ],
+    "sizes": [
+      "30-Pan Artistry Palette"
+    ],
+    "variants": [
+      "Large Format Palette"
+    ],
+    "specifications": {
+      "Pan Count": "30 Multi-Color Pans",
+      "Finishes": "Matte, Shimmer, Pressed Glitter",
+      "Ideal For": "Creative Eye Artistry & Daily Glam"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "tarte-tartelette-matte-palette",
+    "name": "Tartelette Amazonian Clay Matte 12-Pan Eyeshadow Palette",
+    "brand": "Tarte",
+    "brandSlug": "tarte",
+    "category": "makeup",
+    "subcategory": "Eyeshadow Palettes",
+    "shortDescription": "12 universally flattering all-matte eyeshadows arranged in coordinated rows for effortless looks.",
+    "description": "Infused with nutrient-rich Amazonian clay for better, longer, truer wear. Mineral pigments soothe and soften lids without creasing or fading throughout the day.",
+    "primaryImage": "assets/products/makeup/tarte-tartelette-amazonian-clay-eyeshadow-palette.jpeg",
+    "images": [
+      "assets/products/makeup/tarte-tartelette-amazonian-clay-eyeshadow-palette.jpeg"
+    ],
+    "shades": [
+      "12 All-Matte Amazonian Shades"
+    ],
+    "colors": [
+      {
+        "name": "Free Spirit",
+        "hex": "#f7eee3"
+      },
+      {
+        "name": "Force of Nature",
+        "hex": "#c9a188"
+      },
+      {
+        "name": "Dreamer",
+        "hex": "#7b5042"
+      },
+      {
+        "name": "Bombshell",
+        "hex": "#3a2b2e"
+      }
+    ],
+    "sizes": [
+      "12 x 1.5g Full-Size Pans"
+    ],
+    "variants": [
+      "Purple Gold Compact"
+    ],
+    "specifications": {
+      "Formula": "Amazonian Clay Infused Matte Powder",
+      "Finish": "100% Pure Matte",
+      "Free From": "Parabens, Mineral Oil, Phthalates",
+      "Ophthalmologist Tested": "Safe for contact lens wearers"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "revolution-reloaded-velvet-rose-palette",
+    "name": "Re-Loaded Velvet Rose 15-Shade Eyeshadow Palette",
+    "brand": "Revolution",
+    "brandSlug": "revolution",
+    "category": "makeup",
+    "subcategory": "Eyeshadow Palettes",
+    "shortDescription": "15 warm neutral, rose gold, and deep chocolate shades with supreme pigmentation.",
+    "description": "A bestselling beauty icon. Features velvety matte transition shades alongside dazzling foiled shimmers. Blends like butter across lids for romantic day or smokey evening beauty.",
+    "primaryImage": "assets/products/makeup/revolution-reloaded-velvet-rose-eyeshadow-palette.jpeg",
+    "images": [
+      "assets/products/makeup/revolution-reloaded-velvet-rose-eyeshadow-palette.jpeg",
+      "assets/products/makeup/revolution-forever-flawless-eyeshadow-palette.jpeg",
+      "assets/products/makeup/revolution-shock-amplified-36-eyeshadow-palette.jpeg",
+      "assets/products/makeup/revolution-emily-wants-eyeshadow-palette.jpeg"
+    ],
+    "shades": [
+      "15 Rose & Gold Shades"
+    ],
+    "colors": [
+      {
+        "name": "Rose Gold",
+        "hex": "#c58f83"
+      },
+      {
+        "name": "Warm Cocoa",
+        "hex": "#634133"
+      },
+      {
+        "name": "Gilded Copper",
+        "hex": "#b46944"
+      }
+    ],
+    "sizes": [
+      "15 x 1.1g Pans"
+    ],
+    "variants": [
+      "15-Pan Palette",
+      "36-Pan Amplified Palette"
+    ],
+    "specifications": {
+      "Pan Count": "15 Shades",
+      "Finishes": "Matte, Shimmer, Duochrome",
+      "Cruelty-Free": "PETA Certified"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "revolution-pro-brighter-than-my-future-kit",
+    "name": "Revolution Pro Brighter Than My Future Contour & Blush Palette",
+    "brand": "Revolution",
+    "brandSlug": "revolution",
+    "category": "beauty-kits",
+    "subcategory": "Contour & Cheek Kits",
+    "shortDescription": "All-in-one face palette containing silky contour powders, soft blushes, and beam highlighters.",
+    "description": "Everything you need to sculpt, define, and illuminate in one sleek palette. The finely milled powders melt into skin for an airbrushed, lit-from-within glow.",
+    "primaryImage": "assets/products/beauty-kits/revolution-pro-brighter-than-my-future-kit.jpeg",
+    "images": [
+      "assets/products/beauty-kits/revolution-pro-brighter-than-my-future-kit.jpeg"
+    ],
+    "shades": [
+      "Sculpt, Glow & Blush Trio"
+    ],
+    "colors": [
+      {
+        "name": "Champagne Beam",
+        "hex": "#faebd7"
+      },
+      {
+        "name": "Rose Silk Blush",
+        "hex": "#d8828b"
+      },
+      {
+        "name": "Sculpt Bronzer",
+        "hex": "#95644c"
+      }
+    ],
+    "sizes": [
+      "Face Palette Compact"
+    ],
+    "variants": [
+      "Multi-Pan Kit"
+    ],
+    "specifications": {
+      "Contents": "Contour, Highlight & Radiant Blush",
+      "Formula": "Silky Micronized Powder",
+      "Skin Tones": "Universal Blend"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "rouge-dior-couture-lipstick",
+    "name": "Rouge Dior Couture Long-Wear Floral Lip Care Lipstick",
+    "brand": "Dior",
+    "brandSlug": "dior",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "The iconic couture lipstick enriched with red peony and pomegranate flower extract for 16 hours of comfort.",
+    "description": "True luxury for your lips. Rouge Dior dresses the smile in iconic shades while delivering clean floral lip care. The refined houndstooth bullet delivers rich color with sublime satin comfort.",
+    "primaryImage": "assets/products/makeup/rouge-dior-couture-color-lipstick.jpeg",
+    "images": [
+      "assets/products/makeup/rouge-dior-couture-color-lipstick.jpeg"
+    ],
+    "shades": [
+      "999 Iconic Velvet Red",
+      "100 Nude Look Satin",
+      "720 Icone Matte"
+    ],
+    "colors": [
+      {
+        "name": "999 Red",
+        "hex": "#b31b26"
+      },
+      {
+        "name": "100 Nude",
+        "hex": "#c49084"
+      },
+      {
+        "name": "720 Icone",
+        "hex": "#8d3f4b"
+      }
+    ],
+    "sizes": [
+      "3.5g / 0.12 oz"
+    ],
+    "variants": [
+      "Couture Case"
+    ],
+    "specifications": {
+      "Formulation": "Couture Bullet Lipstick",
+      "Lip Care Actives": "Red Peony Extract, Pomegranate Blossom",
+      "Wear Time": "16 Hours Comfortable Wear",
+      "Country of Origin": "France"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": true,
+    "featured": true
+  },
+  {
+    "id": "patrick-ta-major-volume-plumping-gloss",
+    "name": "Major Volume High-Shine Plumping Lip Gloss",
+    "brand": "Patrick Ta",
+    "brandSlug": "patrick-ta",
+    "category": "makeup",
+    "subcategory": "Lip Gloss",
+    "shortDescription": "High-shine plumping gloss formulated with warm active cinnamon and peptides for instantly fuller lips.",
+    "description": "Gives your lips an instant high-gloss lacquer finish with maximum plumping volume. Non-sticky cushion texture cushions lips while optical pearls reflect light from every angle.",
+    "primaryImage": "assets/products/makeup/patrick-ta-major-volume-plumping-lip-gloss-sparkle.jpeg",
+    "images": [
+      "assets/products/makeup/patrick-ta-major-volume-plumping-lip-gloss-sparkle.jpeg",
+      "assets/products/makeup/patrick-ta-major-volume-plumping-lip-gloss-rose.jpeg",
+      "assets/products/makeup/patrick-ta-silky-lip-creme-gloss.jpeg"
+    ],
+    "shades": [
+      "Pouty (Clear Diamond Sparkle)",
+      "Superficial (Soft Rose Tint)",
+      "She's Expensive (Pearlescent Nude)"
+    ],
+    "colors": [
+      {
+        "name": "Diamond Sparkle",
+        "hex": "#fcf6f5"
+      },
+      {
+        "name": "Soft Rose",
+        "hex": "#e79d9e"
+      }
+    ],
+    "sizes": [
+      "9ml / 0.30 fl oz"
+    ],
+    "variants": [
+      "Plumping Lacquer"
+    ],
+    "specifications": {
+      "Formulation": "Plumping Lip Lacquer",
+      "Finish": "Glass-Reflective High Shine",
+      "Key Actives": "Peptide Complex, Botanical Warming Actives",
+      "Volume Effect": "Noticeable Instant Cushion Plump"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": true,
+    "featured": true
+  },
+  {
+    "id": "sheglam-jelly-wow-lip-gloss",
+    "name": "Jelly Wow Hydrating Lip Plumping Gloss & Oil",
+    "brand": "SHEGLAM",
+    "brandSlug": "sheglam",
+    "category": "makeup",
+    "subcategory": "Lip Gloss",
+    "shortDescription": "Ultra-cushiony jelly lip oil with fruit seed extracts for glossy, baby-smooth lips.",
+    "description": "Combines the shine of a lip gloss with the deep hydration of a rich lip oil. Melts onto lips without stickiness, leaving behind an irresistible glassy sheen and subtle fruit scent.",
+    "primaryImage": "assets/products/makeup/sheglam-jelly-wow-hydrating-lip-gloss-tint.jpeg",
+    "images": [
+      "assets/products/makeup/sheglam-jelly-wow-hydrating-lip-gloss-tint.jpeg",
+      "assets/products/makeup/sheglam-jelly-wow-hydrating-lip-gloss-pink.jpeg"
+    ],
+    "shades": [
+      "Clear Jelly Glass",
+      "Berry Glaze Tint"
+    ],
+    "colors": [
+      {
+        "name": "Clear Glass",
+        "hex": "#fdfbfa"
+      },
+      {
+        "name": "Berry Tint",
+        "hex": "#e88094"
+      }
+    ],
+    "sizes": [
+      "6ml / 0.2 fl oz"
+    ],
+    "variants": [
+      "Jelly Tube with Silicone Tip"
+    ],
+    "specifications": {
+      "Formulation": "Jelly-to-Oil Gloss",
+      "Texture": "Ultra-Light Cushion Non-Sticky",
+      "Finish": "High-Gloss Wet Look"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "miss-lara-velvet-matte-lipstick",
+    "name": "Velvet Matte Moisture Lipstick Duo",
+    "brand": "Miss Lara",
+    "brandSlug": "miss-lara",
+    "category": "makeup",
+    "subcategory": "Lipsticks",
+    "shortDescription": "Silky matte lipstick with nourishing botanical emollients and intense color payoff.",
+    "description": "Glides seamlessly onto lips, providing rich pigmented color in a modern soft-focus matte finish. Keeps lips moisturized and protected all day.",
+    "primaryImage": "assets/products/makeup/miss-lara-velvet-matte-lipstick-pink.jpeg",
+    "images": [
+      "assets/products/makeup/miss-lara-velvet-matte-lipstick-pink.jpeg",
+      "assets/products/makeup/miss-lara-velvet-matte-lipstick-coral.jpeg"
+    ],
+    "shades": [
+      "Sweet Berry Pink",
+      "Nude Coral Warm"
+    ],
+    "colors": [
+      {
+        "name": "Sweet Berry",
+        "hex": "#b74b62"
+      },
+      {
+        "name": "Nude Coral",
+        "hex": "#c46757"
+      }
+    ],
+    "sizes": [
+      "3.8g / 0.13 oz"
+    ],
+    "variants": [
+      "Velvet Matte Bullet"
+    ],
+    "specifications": {
+      "Formulation": "Solid Cream-to-Matte",
+      "Finish": "Powder Velvet",
+      "Wear": "Long-Wearing Smudge Resistant"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "makeup-forever-smoky-lash-mascara",
+    "name": "Professional Smoky Lash 2-in-1 Volumizing Mascara",
+    "brand": "Make Up For Ever",
+    "brandSlug": "makeup-forever",
+    "category": "makeup",
+    "subcategory": "Mascara",
+    "shortDescription": "Ultra-pigmented pro formula that curls, lengthens, and volumizes in a single sweep.",
+    "description": "Formulated for runway and high-definition photography. Dense bristled wand catches and coats every lash from root to tip in carbon black pigment for maximum volume without clumping.",
+    "primaryImage": "assets/products/makeup/makeup-forever-lash-multiplying-mascara.jpeg",
+    "images": [
+      "assets/products/makeup/makeup-forever-lash-multiplying-mascara.jpeg"
+    ],
+    "shades": [
+      "Deep Carbon Black"
+    ],
+    "colors": [
+      {
+        "name": "Deep Carbon",
+        "hex": "#0d0d0d"
+      }
+    ],
+    "sizes": [
+      "8.5ml / 0.28 fl oz"
+    ],
+    "variants": [
+      "Full-Size Tube"
+    ],
+    "specifications": {
+      "Formulation": "Dense Pro Mascara",
+      "Effect": "Dramatic Volume & Curl",
+      "Color": "Ultra Deep Black",
+      "Smudge-Proof": "Yes"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "pagevine-hold-em-up-brow-gel",
+    "name": "Hold 'Em Up Tinted Brow Sculpting Gel & Micro Mascara",
+    "brand": "Pagevine",
+    "brandSlug": "pagevine",
+    "category": "makeup",
+    "subcategory": "Eyebrows",
+    "shortDescription": "Precision micro-spoolie brow gel that lifts, sets, and tints brows for a laminated look.",
+    "description": "Holds brows securely in place all day without stiff flaking. Micro-fibers cling to brow hairs to fill in sparse gaps and create full, fluffy, natural-looking brows.",
+    "primaryImage": "assets/products/makeup/pagevine-tinted-eyebrow-gel-brunette.jpeg",
+    "images": [
+      "assets/products/makeup/pagevine-tinted-eyebrow-gel-brunette.jpeg",
+      "assets/products/makeup/pagevine-tinted-eyebrow-gel-soft-black.jpeg",
+      "assets/products/makeup/hold-em-up-clear-eyebrow-mascara.jpeg"
+    ],
+    "shades": [
+      "Brunette Brown",
+      "Natural Dark Brown",
+      "Clear Sculpting"
+    ],
+    "colors": [
+      {
+        "name": "Brunette",
+        "hex": "#4a3528"
+      },
+      {
+        "name": "Dark Brown",
+        "hex": "#2b1e16"
+      },
+      {
+        "name": "Clear",
+        "hex": "#f0f0f0"
+      }
+    ],
+    "sizes": [
+      "5ml / 0.17 fl oz"
+    ],
+    "variants": [
+      "Precision Brow Tube"
+    ],
+    "specifications": {
+      "Formulation": "Fiber-Infused Brow Gel",
+      "Spoolie": "Ultra-Fine Micro-Tapered Wand",
+      "Hold": "24H Lamination Lock",
+      "Flake-Free": "Yes"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": true,
+    "featured": false
+  },
+  {
+    "id": "umyv-precision-micro-brow-pencil",
+    "name": "Precision Micro Definer Waterproof Eyebrow Pencil Duo",
+    "brand": "UMYV",
+    "brandSlug": "umyv",
+    "category": "makeup",
+    "subcategory": "Eyebrows",
+    "shortDescription": "Ultra-fine mechanical brow pencil that draws realistic, hair-like strokes with waterproof durability.",
+    "description": "Features an ultra-slim 1.5mm tip for pinpoint hair-like precision. Dual-ended design includes a built-in blending spoolie to soften harsh lines for effortlessly groomed arches.",
+    "primaryImage": "assets/products/makeup/umyv-precision-waterproof-micro-brow-pencil.jpeg",
+    "images": [
+      "assets/products/makeup/umyv-precision-waterproof-micro-brow-pencil.jpeg"
+    ],
+    "shades": [
+      "Espresso Brown",
+      "Soft Charcoal",
+      "Caramel"
+    ],
+    "colors": [
+      {
+        "name": "Espresso",
+        "hex": "#3b2a21"
+      },
+      {
+        "name": "Soft Charcoal",
+        "hex": "#262423"
+      }
+    ],
+    "sizes": [
+      "0.08g Mechanical Pencil"
+    ],
+    "variants": [
+      "Micro-Tip Mechanical Pencil"
+    ],
+    "specifications": {
+      "Tip Size": "1.5mm Ultra-Precision Tip",
+      "Waterproof": "Smudge-proof & Sweat-proof",
+      "Dual-Ended": "Retractable Tip + Spoolie"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "og-crazy-girls-glass-skin-foundation",
+    "name": "Glass Skin Full Coverage Hydrating Liquid Foundation",
+    "brand": "OG Crazy Girls",
+    "brandSlug": "og-crazy-girls",
+    "category": "makeup",
+    "subcategory": "Foundation",
+    "shortDescription": "Ultra-luminous glass skin foundation that covers imperfections while maintaining a reflective glow.",
+    "description": "Formulated with light-diffusing pearl complexes and nourishing botanicals. Gives full coverage that looks like real, radiant, healthy skin without feeling heavy or oily.",
+    "primaryImage": "assets/products/makeup/og-crazy-girls-glass-skin-liquid-foundation.jpeg",
+    "images": [
+      "assets/products/makeup/og-crazy-girls-glass-skin-liquid-foundation.jpeg"
+    ],
+    "shades": [
+      "Porcelain 01",
+      "Warm Ivory 02",
+      "Natural Beige 03"
+    ],
+    "colors": [
+      {
+        "name": "Porcelain",
+        "hex": "#f9e7d8"
+      },
+      {
+        "name": "Warm Ivory",
+        "hex": "#f2d9c4"
+      },
+      {
+        "name": "Natural Beige",
+        "hex": "#e5c5aa"
+      }
+    ],
+    "sizes": [
+      "30ml / 1.0 fl oz"
+    ],
+    "variants": [
+      "Glass Pump Bottle"
+    ],
+    "specifications": {
+      "Formulation": "Dewy Liquid Foundation",
+      "Coverage": "Medium to Full Buildable",
+      "Finish": "Korean Glass Skin Luminous",
+      "Hydration": "Infused with Hyaluronic Essence"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "glamora-berry-lip-sleeping-mask",
+    "name": "Nourishing Berry Hydrating Lip Sleeping Mask (20g)",
+    "brand": "Glamora Essentials",
+    "brandSlug": "glamora-essentials",
+    "category": "skincare",
+    "subcategory": "Lip Care & Treatments",
+    "shortDescription": "Overnight leave-on lip mask enriched with wild berry extracts, Vitamin C, and coconut butter.",
+    "description": "Melts onto lips overnight to dissolve dead skin cells and lock in deep moisture. Wake up to plump, ultra-soft, supple lips that stay conditioned throughout the day.",
+    "primaryImage": "assets/products/skincare/glamora-berry-nourishing-lip-sleeping-mask.jpeg",
+    "images": [
+      "assets/products/skincare/glamora-berry-nourishing-lip-sleeping-mask.jpeg"
+    ],
+    "shades": [
+      "Wild Berry Pink"
+    ],
+    "colors": [
+      {
+        "name": "Berry Pink",
+        "hex": "#e2788c"
+      }
+    ],
+    "sizes": [
+      "20g / 0.7 oz Jar"
+    ],
+    "variants": [
+      "Overnight Treatment Jar"
+    ],
+    "specifications": {
+      "Formulation": "Rich Cushion Balm",
+      "Key Actives": "Wild Berry Complex, Coconut Butter, Vitamin C & E",
+      "Use": "Overnight Mask or Daily Lip Treatment"
+    },
+    "availability": "in_stock",
+    "trending": true,
+    "newArrival": true,
+    "featured": true
+  },
+  {
+    "id": "hairline-shadow-powder-touchup",
+    "name": "Hairline Root Touch-Up & Volumizing Shadow Powder",
+    "brand": "Glamora Hair",
+    "brandSlug": "glamora-essentials",
+    "category": "haircare",
+    "subcategory": "Hair Styling & Concealers",
+    "shortDescription": "Instant root concealment and hairline contouring powder with built-in puff and mirror.",
+    "description": "Instantly conceals sparse hairlines, visible roots, and grey hairs with water-resistant micro-pigments. The soft puff applicator provides targeted coverage that blends seamlessly into natural hair.",
+    "primaryImage": "assets/products/haircare/hairline-shadow-powder-touchup.jpeg",
+    "images": [
+      "assets/products/haircare/hairline-shadow-powder-touchup.jpeg"
+    ],
+    "shades": [
+      "Dark Brown",
+      "Natural Black",
+      "Light Brown"
+    ],
+    "colors": [
+      {
+        "name": "Dark Brown",
+        "hex": "#352317"
+      },
+      {
+        "name": "Natural Black",
+        "hex": "#1c1b1a"
+      }
+    ],
+    "sizes": [
+      "4g Compact with Built-In Puff"
+    ],
+    "variants": [
+      "Puff Compact"
+    ],
+    "specifications": {
+      "Formulation": "Water-Resistant Powder",
+      "Included": "Integrated Mirror & Soft Micro-Puff",
+      "Removal": "Washes out easily with shampoo",
+      "Benefit": "Instant Fullness & Root Touch-Up"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "mabrem-conditioning-essential-oil",
+    "name": "Conditioning Botanical Soothing Essential Body Oil",
+    "brand": "Mabrem",
+    "brandSlug": "mabrem",
+    "category": "skincare",
+    "subcategory": "Serums & Oils",
+    "shortDescription": "Relaxing botanical herbal body oil enriched with natural plant extracts for intensive skin conditioning.",
+    "description": "Formulated with plant-derived botanical extracts to moisturize rough patches, soothe muscle tension, and promote skin suppleness. Fast-absorbing, non-sticky herbal texture.",
+    "primaryImage": "assets/products/skincare/mabrem-conditioning-body-essential-oil.jpeg",
+    "images": [
+      "assets/products/skincare/mabrem-conditioning-body-essential-oil.jpeg"
+    ],
+    "shades": [
+      "Pure Herbal Oil"
+    ],
+    "colors": [
+      {
+        "name": "Amber Herbal",
+        "hex": "#dfa767"
+      }
+    ],
+    "sizes": [
+      "10ml Dropper Vial"
+    ],
+    "variants": [
+      "Essential Oil Dropper"
+    ],
+    "specifications": {
+      "Formulation": "Botanical Pure Essential Oil",
+      "Application": "Body, Legs & Dry Skin Areas",
+      "Aroma": "Subtle Soothing Herbal"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  },
+  {
+    "id": "glamora-brightening-pearls-serum",
+    "name": "Radiance Brightening Pearl Infused Vitality Serum Capsules",
+    "brand": "Glamora Essentials",
+    "brandSlug": "glamora-essentials",
+    "category": "skincare",
+    "subcategory": "Serums & Ampoules",
+    "shortDescription": "Individual biodegradable serum pearls containing concentrated niacinamide, peptides, and botanical oils.",
+    "description": "Each single-dose pearl preserves maximum ingredient potency until the moment of application. Delivers concentrated brightening actives to diminish dark spots and reveal radiant vitality.",
+    "primaryImage": "assets/products/skincare/glamora-brightening-pearls-vitality-serum-capsules.jpeg",
+    "images": [
+      "assets/products/skincare/glamora-brightening-pearls-vitality-serum-capsules.jpeg"
+    ],
+    "shades": [
+      "Golden Pearl Drops (30 Capsules)"
+    ],
+    "colors": [
+      {
+        "name": "Golden Pearl",
+        "hex": "#f8e6c4"
+      }
+    ],
+    "sizes": [
+      "30 Single-Use Pearls"
+    ],
+    "variants": [
+      "Glass Jar"
+    ],
+    "specifications": {
+      "Formulation": "Single-Dose Serum Pearls",
+      "Key Actives": "Niacinamide, Vitamin E, Squalane, Peptides",
+      "Benefits": "Radiance, Tone Evening, Hydration",
+      "Packaging": "Airtight Protective Pearls"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": true,
+    "featured": false
+  },
+  {
+    "id": "313-collection-hand-sanitizer",
+    "name": "Hydrating Antibacterial Hand Sanitizer Spray (Pocket Mist)",
+    "brand": "313 Collection",
+    "brandSlug": "313-collection",
+    "category": "skincare",
+    "subcategory": "Body & Hand Care",
+    "shortDescription": "Gentle pocket sanitizer mist that kills 99.9% of bacteria while nourishing hands with aloe vera.",
+    "description": "A chic, sleek pocket-sized mist that sanitizes hands without drying. Formulated with 75% pharmaceutical-grade ethyl alcohol and soothing humectants for clean, soft hands on the go.",
+    "primaryImage": "assets/products/skincare/313-collection-hydrating-hand-sanitizer.jpeg",
+    "images": [
+      "assets/products/skincare/313-collection-hydrating-hand-sanitizer.jpeg"
+    ],
+    "shades": [
+      "Fresh Botanical Mist"
+    ],
+    "colors": [
+      {
+        "name": "Pure Mist",
+        "hex": "#e7f0ed"
+      }
+    ],
+    "sizes": [
+      "45ml Slim Pocket Spray"
+    ],
+    "variants": [
+      "Pocket Spray Case"
+    ],
+    "specifications": {
+      "Formulation": "Micro-Fine Antibacterial Spray",
+      "Active": "75% Ethyl Alcohol + Aloe Vera",
+      "Kills Germs": "99.9% Effectiveness",
+      "Pocket Size": "Travel Friendly"
+    },
+    "availability": "in_stock",
+    "trending": false,
+    "newArrival": false,
+    "featured": false
+  }
+]

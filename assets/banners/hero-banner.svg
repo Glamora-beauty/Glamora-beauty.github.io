@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="heroGlow" cx="70%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FFF5F2"/>
+      <stop offset="45%" stop-color="#FCEEEA"/>
+      <stop offset="80%" stop-color="#F5E4DE"/>
+      <stop offset="100%" stop-color="#EDE0D8"/>
+    </radialGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C79E" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#C5A880" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="softBlush" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7E6E2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#heroGlow)"/>
+  
+  <!-- Subtle decorative curves -->
+  <path d="M-100,500 Q400,250 900,450 T1800,200 L1800,800 L-100,800 Z" fill="#F8EFE9" opacity="0.6"/>
+  <path d="M100,-50 Q700,250 1400,-20 L1600,-50 L1600,-50 Z" fill="#FFFBF8" opacity="0.5"/>
+
+  <!-- Elegant geometric luxury circles -->
+  <circle cx="1250" cy="350" r="280" fill="none" stroke="url(#goldAcc)" stroke-width="2"/>
+  <circle cx="1250" cy="350" r="220" fill="none" stroke="#E8D7CA" stroke-width="1.2" stroke-dasharray="8,6"/>
+  <circle cx="1250" cy="350" r="140" fill="#FFF9F6" opacity="0.5"/>
+  
+  <!-- Ambient cosmetic sparkles -->
+  <g fill="#D4AF37" opacity="0.7">
+    <path d="M1100,180 Q1100,195 1115,195 Q1100,195 1100,210 Q1100,195 1085,195 Q1100,195 1100,180 Z"/>
+    <path d="M1420,240 Q1420,252 1432,252 Q1420,252 1420,264 Q1420,252 1408,252 Q1420,252 1420,240 Z" opacity="0.5"/>
+    <path d="M980,430 Q980,440 990,440 Q980,440 980,450 Q980,440 970,440 Q980,440 980,430 Z" opacity="0.6"/>
+  </g>
+</svg>

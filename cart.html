@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Bag &mdash; GLAMORA</title>
+  <meta name="description" content="Review your selected beauty items, specify shades and gift wrapping preferences, and proceed to WhatsApp order confirmation.">
+  <link rel="icon" type="image/svg+xml" href="assets/products/placeholder.svg">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Announcement">
+    <div class="container">
+      <div class="announcement-text">
+        <i class="fas fa-sparkles"></i>
+        <span>Authentic Cosmetics &bull; <strong>WhatsApp Ordering Available</strong> (+92 318 3085519)</span>
+      </div>
+      <div class="announcement-contact">
+        <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i> +92 318 3085519
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Site Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo" aria-label="Glamora Home">
+        <img src="assets/logo/glamora-logo.png" alt="Glamora Beauty" onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='flex';">
+        <div id="logo-fallback" class="logo-fallback-text" style="display: none;">
+          <span class="brand-name">GLAMORA</span>
+          <span class="brand-tagline">Cosmetics</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="shop.html" class="nav-link">Shop All</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="brands.html" class="nav-link">Brands</a>
+        <a href="trending.html" class="nav-link">Trending <span class="badge-nav">Hot</span></a>
+        <a href="new-arrivals.html" class="nav-link">New Arrivals</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="header-action-btn btn-open-search" aria-label="Search beauty products">
+          <i class="fas fa-search"></i>
+        </button>
+        <a href="cart.html" class="header-action-btn" aria-label="Shopping Bag">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-badge">0</span>
+        </a>
+        <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-header">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp Order</span>
+        </a>
+        <button type="button" class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-drawer-overlay"></div>
+
+  <!-- Breadcrumb -->
+  <div style="background: var(--color-bg-alt); padding: 16px 0; border-bottom: 1px solid var(--color-blush-200);">
+    <div class="container">
+      <nav class="breadcrumb-nav" style="margin-bottom: 0;" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="separator"><i class="fas fa-chevron-right"></i></span>
+        <span class="current-crumb">Shopping Bag</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Cart Section -->
+  <main class="cart-section">
+    <div class="container">
+      <!-- Empty View -->
+      <div id="cart-empty-view" class="cart-empty-state" style="display: none;">
+        <div class="cart-empty-icon"><i class="fas fa-shopping-bag"></i></div>
+        <h2 class="heading-2">Your Shopping Bag is Currently Empty</h2>
+        <p class="text-lead">Discover luxury cosmetics, bestselling skincare, and multi-pan palettes from our authentic inventory.</p>
+        <a href="shop.html" class="btn btn-primary btn-lg" style="margin-top: 10px;">
+          <i class="fas fa-magic"></i> Explore Beauty Catalog
+        </a>
+      </div>
+
+      <!-- Filled Cart View -->
+      <div id="cart-filled-view" class="cart-layout-grid" style="display: none;">
+        <!-- Items Column -->
+        <div class="cart-items-card">
+          <div class="cart-header-row">
+            <h2>Your Selected Beauty Products (<span id="cart-total-items-count">0</span>)</h2>
+            <button type="button" class="btn-clear-cart" id="btn-clear-entire-cart">
+              <i class="fas fa-trash-alt"></i> Clear Bag
+            </button>
+          </div>
+
+          <div id="cart-items-container">
+            <!-- Dynamically populated via js/checkout.js -->
+          </div>
+
+          <!-- Preferences & Order Instructions -->
+          <div style="margin-top: 30px;">
+            <div class="order-preference-box">
+              <label class="checkbox-label">
+                <input type="checkbox" id="cart-gift-wrap-toggle">
+                <span><i class="fas fa-gift" style="color: var(--color-primary-dark); margin-right: 4px;"></i> Request Complimentary Deluxe Gift Wrapping</span>
+              </label>
+
+              <div style="margin-top: 6px;">
+                <label for="cart-general-notes" style="font-size: 0.85rem; font-weight: 600; color: var(--color-charcoal-800); display: block; margin-bottom: 6px;">
+                  General Order Instructions / Specific Tone Requests:
+                </label>
+                <textarea id="cart-general-notes" class="order-instructions-textarea" placeholder="Provide any special instructions, delivery notes, or shade requests here..."></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Summary & WhatsApp Checkout Card (NO PRICES) -->
+        <div class="cart-summary-card">
+          <h3 class="cart-summary-title">Order Overview</h3>
+
+          <div class="cart-summary-meta-list">
+            <div class="cart-summary-meta-row">
+              <span>Ordering Method:</span>
+              <strong>Direct WhatsApp Concierge</strong>
+            </div>
+            <div class="cart-summary-meta-row">
+              <span>Payment Type:</span>
+              <strong>WhatsApp Confirmed (No Gateway)</strong>
+            </div>
+            <div class="cart-summary-meta-row">
+              <span>Authenticity Status:</span>
+              <strong>100% Genuine Guaranteed</strong>
+            </div>
+            <div class="cart-summary-meta-row">
+              <span>Delivery Coverage:</span>
+              <strong>All Cities across Pakistan</strong>
+            </div>
+          </div>
+
+          <div class="whatsapp-checkout-notice">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <strong>Transparent WhatsApp Ordering:</strong><br>
+              In accordance with our business model, product availability and shipping details will be confirmed directly with our beauty concierge via WhatsApp. No online cards or advance gateways needed.
+            </div>
+          </div>
+
+          <a href="checkout.html" class="btn btn-primary btn-lg btn-block" style="margin-bottom: 12px;">
+            <i class="fas fa-arrow-right"></i> Proceed to Order Information
+          </a>
+
+          <a href="shop.html" class="btn btn-secondary btn-block">
+            Continue Shopping
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Site Footer with 4 Live Statistics Cards -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/logo/glamora-logo.png" alt="Glamora Beauty">
+          </a>
+          <p class="footer-about-text">
+            Glamora is a multi-brand beauty destination designed to make discovering makeup, skincare, and beauty essentials simple and enjoyable.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="contact.html" class="social-link" aria-label="Contact Concierge"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html"><i class="fas fa-angle-right"></i> Home</a></li>
+            <li><a href="shop.html"><i class="fas fa-angle-right"></i> Shop All Catalog</a></li>
+            <li><a href="categories.html"><i class="fas fa-angle-right"></i> Beauty Categories</a></li>
+            <li><a href="brands.html"><i class="fas fa-angle-right"></i> Authentic Brands</a></li>
+            <li><a href="trending.html"><i class="fas fa-angle-right"></i> Trending Products</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Customer Care</h4>
+          <ul class="footer-nav-list">
+            <li><a href="about.html"><i class="fas fa-angle-right"></i> About Glamora</a></li>
+            <li><a href="contact.html"><i class="fas fa-angle-right"></i> Contact Concierge</a></li>
+            <li><a href="faq.html"><i class="fas fa-angle-right"></i> Frequently Asked Questions</a></li>
+            <li><a href="privacy.html"><i class="fas fa-angle-right"></i> Privacy Policy</a></li>
+            <li><a href="terms.html"><i class="fas fa-angle-right"></i> Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">WhatsApp Ordering</h4>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>Official Order Line:</strong><br>
+                <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-bright); font-weight: 600;">+92 318 3085519</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Delivery Area:</strong><br>
+                Nationwide Pakistan
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Visitor Statistics Strip (4 Metrics) -->
+      <section class="footer-stats-section" aria-label="Live Visitor Statistics">
+        <div class="stats-section-title">
+          <i class="fas fa-chart-line"></i> Live Visitor Analytics &amp; Catalog Insights
+        </div>
+        <div class="visitor-stats-grid">
+          <div class="visitor-stat-card">
+            <div class="stat-icon-wrapper"><i class="fas fa-users"></i></div>
+            <div class="stat-data-wrapper">
+              <div class="stat-value" id="stat-total-visitors">--</div>
+              <div class="stat-label">Total Visitors</div>
+            </div>
+          </div>
+          <div class="visitor-stat-card">
+            <div class="stat-icon-wrapper"><i class="fas fa-calendar-day"></i></div>
+            <div class="stat-data-wrapper">
+              <div class="stat-value" id="stat-today-visitors">--</div>
+              <div class="stat-label">Today's Visitors (PKT)</div>
+            </div>
+          </div>
+          <div class="visitor-stat-card">
+            <div class="stat-icon-wrapper"><i class="fas fa-globe-asia"></i></div>
+            <div class="stat-data-wrapper">
+              <div class="stat-value"><span class="stat-indicator"></span><span id="stat-online-visitors">--</span></div>
+              <div class="stat-label">Online Active Now</div>
+            </div>
+          </div>
+          <div class="visitor-stat-card">
+            <div class="stat-icon-wrapper"><i class="fas fa-eye"></i></div>
+            <div class="stat-data-wrapper">
+              <div class="stat-value" id="stat-page-views">--</div>
+              <div class="stat-label">Total Page Views</div>
+            </div>
+          </div>
+        </div>
+        <p class="stats-timezone-note">
+          Analytics calculated based on Pakistan Standard Time (PKT, UTC+5). Reset at 00:00:00 PKT.
+        </p>
+      </section>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="footer-year">2026</span> <strong>GLAMORA</strong>. All rights reserved. Premium Beauty &amp; Cosmetics. &bull; Developed by <a href="https://murtuzadeveloper.github.io/" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-bright); font-weight: 600; text-decoration: underline;">https://murtuzadeveloper.github.io/</a>
+        </div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Concierge</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-trigger" aria-label="Direct WhatsApp Chat">
+    <i class="fab fa-whatsapp"></i>
+    <span class="tooltip-label">Chat with Beauty Concierge</span>
+  </a>
+
+  <!-- Mobile Sticky Bottom Bar -->
+  <nav class="mobile-bottom-bar" aria-label="Mobile Navigation">
+    <a href="index.html" class="mobile-bottom-item">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </a>
+    <a href="shop.html" class="mobile-bottom-item">
+      <i class="fas fa-store"></i>
+      <span>Shop</span>
+    </a>
+    <a href="#" class="mobile-bottom-item btn-open-search">
+      <i class="fas fa-search"></i>
+      <span>Search</span>
+    </a>
+    <a href="categories.html" class="mobile-bottom-item">
+      <i class="fas fa-th-large"></i>
+      <span>Categories</span>
+    </a>
+    <a href="cart.html" class="mobile-bottom-item active">
+      <i class="fas fa-shopping-bag"></i>
+      <span class="cart-badge">0</span>
+      <span>Bag</span>
+    </a>
+  </nav>
+
+  <!-- Search Modal -->
+  <div class="search-modal-overlay" id="search-modal-overlay" role="dialog" aria-modal="true" aria-label="Search Catalog">
+    <div class="search-modal-container">
+      <div class="search-modal-header">
+        <i class="fas fa-search" style="color: var(--color-primary); font-size: 1.1rem;"></i>
+        <input type="text" class="search-input-field" id="search-modal-input" placeholder="Search beauty products, genuine brands, shades, or ingredients..." autocomplete="off">
+        <button type="button" class="btn-search-clear" id="btn-clear-search"><i class="fas fa-times"></i></button>
+        <button type="button" class="btn-search-close" id="btn-close-search"><i class="fas fa-arrow-down"></i></button>
+      </div>
+      <div class="search-modal-body">
+        <div class="search-tags-section">
+          <div class="search-tags-title">Trending Beauty Searches</div>
+          <div class="search-tags-list" id="search-trending-chips"></div>
+        </div>
+        <div class="search-tags-section" id="search-history-wrapper" style="display: none;">
+          <div class="search-tags-title">
+            <span>Recent Searches</span>
+            <button type="button" id="btn-clear-history" style="font-size: 0.72rem; color: var(--color-primary-dark); cursor: pointer; text-decoration: underline;">Clear</button>
+          </div>
+          <div class="search-tags-list" id="search-history-chips"></div>
+        </div>
+        <div id="search-live-results"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/config/visitor-counter-config.js"></script>
+  <script src="js/visitor-counter.js"></script>
+  <script src="js/whatsapp.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/checkout.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/audio-player.js"></script>
+  <script src="js/app.js"></script>
+  <!-- Background Ambient Music Element -->
+  <audio id="glamora-bg-audio" src="assets/audio/background-music.mp3" autoplay loop preload="auto"></audio>
+</body>
+</html>

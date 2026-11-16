@@ -1,0 +1,234 @@
+[
+  {
+    "id": "huda-beauty",
+    "name": "Huda Beauty",
+    "slug": "huda-beauty",
+    "origin": "Dubai / United Arab Emirates",
+    "description": "Founded by makeup artist and beauty pioneer Huda Kattan, Huda Beauty creates game-changing beauty formulations with rich pigmentation, long-lasting wear, and luxurious finishes.",
+    "featured": true
+  },
+  {
+    "id": "nars",
+    "name": "NARS Cosmetics",
+    "slug": "nars",
+    "origin": "New York / Paris",
+    "description": "Celebrated for iconic shades and audacious beauty products that encourage individual expression, high fashion styling, and luminous complexion artistry.",
+    "featured": true
+  },
+  {
+    "id": "loreal-paris",
+    "name": "L'Oréal Paris",
+    "slug": "loreal-paris",
+    "origin": "Paris, France",
+    "description": "The world's leading cosmetics brand combining scientific innovation with accessible luxury makeup, skincare, and high-performance mascaras.",
+    "featured": true
+  },
+  {
+    "id": "elf-cosmetics",
+    "name": "e.l.f. Cosmetics",
+    "slug": "elf-cosmetics",
+    "origin": "Oakland, California, USA",
+    "description": "Beloved globally for clean, 100% cruelty-free cosmetic staples, professional makeup brushes, and skin-loving foundation formulas.",
+    "featured": true
+  },
+  {
+    "id": "mac-cosmetics",
+    "name": "MAC Cosmetics",
+    "slug": "mac-cosmetics",
+    "origin": "Toronto, Canada",
+    "description": "All Ages, All Races, All Genders. The undisputed authority in professional makeup artistry with runway-proven studio fix powders and radiant strobe creams.",
+    "featured": true
+  },
+  {
+    "id": "the-ordinary",
+    "name": "The Ordinary",
+    "slug": "the-ordinary",
+    "origin": "Toronto, Canada",
+    "description": "Clinical formulations with integrity. Transforming modern skincare through pure, active chemical exfoliants and targeted ingredients.",
+    "featured": true
+  },
+  {
+    "id": "cetaphil",
+    "name": "Cetaphil",
+    "slug": "cetaphil",
+    "origin": "Switzerland / Galderma",
+    "description": "Dermatologist-recommended gentle skincare engineered specifically for sensitive and dry skin, reinforcing the natural protective skin barrier.",
+    "featured": true
+  },
+  {
+    "id": "neutrogena",
+    "name": "Neutrogena",
+    "slug": "neutrogena",
+    "origin": "Los Angeles, USA",
+    "description": "Pioneering dermatological solutions including the world-renowned Hydro Boost hyaluronic acid line for continuous 24-hour hydration.",
+    "featured": true
+  },
+  {
+    "id": "skin1004",
+    "name": "SKIN1004",
+    "slug": "skin1004",
+    "origin": "Seoul, South Korea",
+    "description": "Pure Korean botanical skincare harvesting untouched Centella Asiatica from Madagascar to soothe irritated skin and restore natural vitality.",
+    "featured": true
+  },
+  {
+    "id": "anua",
+    "name": "Anua",
+    "slug": "anua",
+    "origin": "Seoul, South Korea",
+    "description": "Award-winning clean K-beauty specializing in relaxing, calming skin textures with high concentrations of soothing natural Heartleaf extract.",
+    "featured": true
+  },
+  {
+    "id": "embryolisse",
+    "name": "Embryolisse",
+    "slug": "embryolisse",
+    "origin": "Paris, France",
+    "description": "The French pharmacy cult favorite created in 1950 by a Parisian hospital dermatologist. The backstage standard primer and multi-purpose nourishing cream.",
+    "featured": true
+  },
+  {
+    "id": "pixi",
+    "name": "Pixi",
+    "slug": "pixi",
+    "origin": "London, United Kingdom",
+    "description": "Created by Petra Strand, Pixi delivers flawless, youth-enhancing radiance with skin-loving botanicals, multi-use sticks, and micro-exfoliators.",
+    "featured": true
+  },
+  {
+    "id": "nyx-professional-makeup",
+    "name": "NYX Professional Makeup",
+    "slug": "nyx-professional-makeup",
+    "origin": "Los Angeles, California, USA",
+    "description": "Pro-level makeup products, vivid high-impact pigments, and cult-favorite setting sprays inspired by the creative pulse of Los Angeles.",
+    "featured": true
+  },
+  {
+    "id": "revolution",
+    "name": "Revolution",
+    "slug": "revolution",
+    "origin": "London, United Kingdom",
+    "description": "Innovative, cruelty-free British cosmetics brand renowned for versatile 15-pan and 36-pan eyeshadow palettes and glow-enhancing contour kits.",
+    "featured": true
+  },
+  {
+    "id": "dior",
+    "name": "Dior",
+    "slug": "dior",
+    "origin": "Paris, France",
+    "description": "Haute couture French luxury beauty. Iconic Rouge Dior lipsticks infused with natural floral extracts for supreme elegance.",
+    "featured": true
+  },
+  {
+    "id": "patrick-ta",
+    "name": "Patrick Ta",
+    "slug": "patrick-ta",
+    "origin": "West Hollywood, California, USA",
+    "description": "Celebrity makeup artist Patrick Ta's line of luxurious glowing makeup formulations, glass-finish plumping glosses, and radiant textures.",
+    "featured": true
+  },
+  {
+    "id": "real-techniques",
+    "name": "Real Techniques",
+    "slug": "real-techniques",
+    "origin": "London / USA",
+    "description": "Created by professional makeup artist duo Sam & Nic Chapman, offering precision-cut synthetic makeup brushes that deliver streak-free blending.",
+    "featured": true
+  },
+  {
+    "id": "urban-decay",
+    "name": "Urban Decay",
+    "slug": "urban-decay",
+    "origin": "California, USA",
+    "description": "Feminine, a little dangerous and a lot of fun. Creators of the globally iconic Naked Eyeshadow franchise.",
+    "featured": true
+  },
+  {
+    "id": "anastasia-beverly-hills",
+    "name": "Anastasia Beverly Hills",
+    "slug": "anastasia-beverly-hills",
+    "origin": "Beverly Hills, California, USA",
+    "description": "The premier prestige beauty brand pioneered by Anastasia Soare, renowned for mathematical golden ratio brow and palette artistry.",
+    "featured": true
+  },
+  {
+    "id": "tarte",
+    "name": "Tarte",
+    "slug": "tarte",
+    "origin": "New York, USA",
+    "description": "High-performance naturals formulated with Amazonian clay, skin-kind botanicals, and long-wearing pigment matrices.",
+    "featured": true
+  },
+  {
+    "id": "morphe",
+    "name": "Morphe",
+    "slug": "morphe",
+    "origin": "Los Angeles, USA",
+    "description": "Created for creators. Famed for artistry collaborations with rich color stories and velvety blending eyeshadow pigments.",
+    "featured": false
+  },
+  {
+    "id": "sheglam",
+    "name": "SHEGLAM",
+    "slug": "sheglam",
+    "origin": "Singapore",
+    "description": "Trend-driven beauty brand crafting playful, nourishing jelly lip oils and ultra-dewy cosmetics.",
+    "featured": false
+  },
+  {
+    "id": "dermacol",
+    "name": "Dermacol",
+    "slug": "dermacol",
+    "origin": "Prague, Czech Republic",
+    "description": "One of Europe's first medical-grade camouflage foundations, created at Barrandov Film Studios in Prague for extreme coverage.",
+    "featured": false
+  },
+  {
+    "id": "pagevine",
+    "name": "Pagevine",
+    "slug": "pagevine",
+    "origin": "International",
+    "description": "Specialized eyebrow sculpting cosmetics and fiber-infused brow tints for natural, lamination-effect brow definition.",
+    "featured": false
+  },
+  {
+    "id": "mabrem",
+    "name": "Mabrem",
+    "slug": "mabrem",
+    "origin": "Botanical Skincare",
+    "description": "Herbal and essential oil body solutions focused on conditioning, soothing, and restoring skin suppleness.",
+    "featured": false
+  },
+  {
+    "id": "umyv",
+    "name": "UMYV",
+    "slug": "umyv",
+    "origin": "Precision Cosmetics",
+    "description": "Micro-tip eyebrow pencils engineered for hair-like strokes with sweat-proof and smudge-resistant formulas.",
+    "featured": false
+  },
+  {
+    "id": "og-crazy-girls",
+    "name": "OG Crazy Girls",
+    "slug": "og-crazy-girls",
+    "origin": "Beauty Artistry",
+    "description": "High-coverage dewy foundations engineered for the seamless Korean 'glass skin' complexion finish.",
+    "featured": false
+  },
+  {
+    "id": "313-collection",
+    "name": "313 Collection",
+    "slug": "313-collection",
+    "origin": "Personal Care",
+    "description": "Nourishing daily hygiene and moisturizing sanitizing sprays enriched with soothing botanical humectants.",
+    "featured": false
+  },
+  {
+    "id": "glamora-essentials",
+    "name": "Glamora Essentials",
+    "slug": "glamora-essentials",
+    "origin": "Curated by Glamora",
+    "description": "Glamora's house-curated specialty formulations and beauty treatments designed for daily indulgence and radiant care.",
+    "featured": false
+  }
+]

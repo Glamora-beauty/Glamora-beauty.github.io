@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLAMORA &mdash; Discover Your Beauty. Express Your Elegance.</title>
+  <meta name="description" content="Glamora is Pakistan's premier multi-brand beauty destination. Explore genuine makeup, skincare, and beauty kits with personalized WhatsApp ordering.">
+  <meta name="keywords" content="Glamora, beauty, cosmetics, makeup, skincare, Pakistan cosmetics, Huda Beauty, NARS, L'Oreal, authentic makeup, WhatsApp ordering">
+  <meta name="author" content="Glamora Beauty">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GLAMORA — Premium Beauty & Cosmetics">
+  <meta property="og:description" content="Explore genuine makeup, skincare, and beauty kits with convenient WhatsApp ordering across Pakistan.">
+  <meta property="og:image" content="assets/logo/glamora-logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/products/placeholder.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Announcement">
+    <div class="container">
+      <div class="announcement-text">
+        <i class="fas fa-sparkles"></i>
+        <span>Welcome to <strong>GLAMORA</strong> &mdash; Authentic Multi-Brand Cosmetics Catalog</span>
+        <span class="gold-text">&bull; WhatsApp Ordering Available</span>
+      </div>
+      <div class="announcement-contact">
+        <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i> +92 318 3085519
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="index.html" class="site-logo" aria-label="Glamora Home">
+        <img src="assets/logo/glamora-logo.png" alt="Glamora Beauty" onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='flex';">
+        <div id="logo-fallback" class="logo-fallback-text" style="display: none;">
+          <span class="brand-name">GLAMORA</span>
+          <span class="brand-tagline">Cosmetics</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="shop.html" class="nav-link">Shop All</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="brands.html" class="nav-link">Brands</a>
+        <a href="trending.html" class="nav-link">Trending <span class="badge-nav">Hot</span></a>
+        <a href="new-arrivals.html" class="nav-link">New Arrivals</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Search Trigger -->
+        <button type="button" class="header-action-btn btn-open-search" aria-label="Search beauty products">
+          <i class="fas fa-search"></i>
+        </button>
+
+        <!-- Shopping Cart Trigger -->
+        <a href="cart.html" class="header-action-btn" aria-label="Shopping Bag">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-badge">0</span>
+        </a>
+
+        <!-- WhatsApp Direct Pill -->
+        <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-header" title="Chat on WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp Order</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="mobile-drawer-overlay"></div>
+
+  <!-- Hero Section -->
+  <section class="hero-section" aria-label="Hero Introduction">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fas fa-gem"></i> Authentic Multi-Brand Destination
+          </div>
+          <h1 class="hero-title">
+            Your Beauty, <em>Your Signature.</em>
+          </h1>
+          <p class="hero-description">
+            Discover hand-curated cosmetics, dermatologist-approved skincare, and luxury beauty kits from iconic global beauty houses. Explore genuine formulations and order effortlessly via WhatsApp.
+          </p>
+          <div class="hero-actions">
+            <a href="shop.html" class="btn btn-primary btn-lg">
+              <i class="fas fa-shopping-bag"></i> Explore Collection
+            </a>
+            <a href="categories.html" class="btn btn-secondary btn-lg">
+              Browse Categories
+            </a>
+          </div>
+          <div class="hero-features-strip">
+            <div class="hero-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>100% Genuine Brands</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fab fa-whatsapp"></i>
+              <span>WhatsApp Assisted Orders</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fas fa-truck"></i>
+              <span>Nationwide Pakistan Delivery</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img src="assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-01.jpeg" alt="Glamora Luxury Beauty Presentation" onerror="this.onerror=null; this.src='assets/products/placeholder.svg';">
+            
+            <!-- Floating Badges -->
+            <div class="floating-glass-badge floating-badge-1">
+              <div class="floating-icon-wrap gold">
+                <i class="fas fa-award"></i>
+              </div>
+              <div class="floating-text-wrap">
+                <h4>Authentic Brands</h4>
+                <p>Original Formulations</p>
+              </div>
+            </div>
+
+            <div class="floating-glass-badge floating-badge-2">
+              <div class="floating-icon-wrap green">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="floating-text-wrap">
+                <h4>Direct WhatsApp</h4>
+                <p>Quick Confirmation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop by Category Section -->
+  <section class="section" aria-label="Shop by Category">
+    <div class="container">
+      <div class="section-header-flex">
+        <div class="section-header-title">
+          <span class="subheading">Curated Selections</span>
+          <h2 class="heading-2">Shop by Beauty Category</h2>
+        </div>
+        <a href="categories.html" class="view-all-link">
+          All Categories <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="category-grid">
+        <!-- Makeup -->
+        <a href="shop.html?category=makeup" class="category-card">
+          <div class="category-image-wrapper">
+            <img src="assets/products/makeup/huda-beauty-fauxfilter-luminous-matte-foundation.jpeg" alt="Makeup Collection" loading="lazy">
+            <span class="category-badge-count">Cosmetics</span>
+          </div>
+          <div class="category-card-body">
+            <h3 class="category-card-title">Makeup</h3>
+            <p class="category-card-tagline">Flawless foundations, velvet lipsticks, high-pigment eyeshadows & mascaras.</p>
+            <div class="category-card-footer">
+              <span>Explore Makeup</span>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Skincare -->
+        <a href="shop.html?category=skincare" class="category-card">
+          <div class="category-image-wrapper">
+            <img src="assets/products/skincare/skin1004-centella-probio-cica-ampoule.jpeg" alt="Skincare Formulations" loading="lazy">
+            <span class="category-badge-count">K-Beauty & Derm</span>
+          </div>
+          <div class="category-card-body">
+            <h3 class="category-card-title">Skincare</h3>
+            <p class="category-card-tagline">Gentle cleansers, soothing Centella ampoules, glycolic toners & sleeping masks.</p>
+            <div class="category-card-footer">
+              <span>Explore Skincare</span>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Beauty Kits -->
+        <a href="shop.html?category=beauty-kits" class="category-card">
+          <div class="category-image-wrapper">
+            <img src="assets/products/beauty-kits/huda-beauty-habibti-liquid-matte-lip-duo.jpeg" alt="Beauty Kits & Duos" loading="lazy">
+            <span class="category-badge-count">Sets & Kits</span>
+          </div>
+          <div class="category-card-body">
+            <h3 class="category-card-title">Beauty Kits</h3>
+            <p class="category-card-tagline">Lip contour duos, sculpting cheek kits, and setting spray bundles.</p>
+            <div class="category-card-footer">
+              <span>Explore Kits</span>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Beauty Accessories -->
+        <a href="shop.html?category=accessories" class="category-card">
+          <div class="category-image-wrapper">
+            <img src="assets/products/accessories/elf-professional-brush-kit.jpeg" alt="Beauty Accessories & Brushes" loading="lazy">
+            <span class="category-badge-count">Tools</span>
+          </div>
+          <div class="category-card-body">
+            <h3 class="category-card-title">Accessories</h3>
+            <p class="category-card-tagline">Professional brush kits, precision blenders, and seamless application tools.</p>
+            <div class="category-card-footer">
+              <span>Explore Tools</span>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending Products Section -->
+  <section class="section section-alt" aria-label="Trending Products">
+    <div class="container">
+      <div class="section-header-flex">
+        <div class="section-header-title">
+          <span class="subheading">Customer Favorites</span>
+          <h2 class="heading-2">Trending in Beauty</h2>
+        </div>
+        <a href="trending.html" class="view-all-link">
+          View All Trending <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="product-grid" id="home-trending-grid">
+        <!-- Rendered dynamically via js/products.js -->
+        <div class="shimmer-skeleton" style="height: 380px; border-radius: var(--radius-lg);"></div>
+        <div class="shimmer-skeleton" style="height: 380px; border-radius: var(--radius-lg);"></div>
+        <div class="shimmer-skeleton" style="height: 380px; border-radius: var(--radius-lg);"></div>
+        <div class="shimmer-skeleton" style="height: 380px; border-radius: var(--radius-lg);"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Brands Showcase -->
+  <section class="section" aria-label="Featured Brands">
+    <div class="container">
+      <div class="section-header text-center" style="max-width: 680px; margin: 0 auto 48px;">
+        <span class="subheading">Authentic Heritage</span>
+        <h2 class="heading-2" style="margin-bottom: 12px;">Featured Beauty Brands</h2>
+        <p class="text-lead">Discover genuine formulations from globally renowned cosmetics and skincare pioneers.</p>
+      </div>
+
+      <div class="brands-showcase-grid">
+        <a href="shop.html?brand=huda-beauty" class="brand-card-item">
+          <div class="brand-card-name">Huda Beauty</div>
+          <div class="brand-card-origin">Dubai / USA</div>
+        </a>
+        <a href="shop.html?brand=nars" class="brand-card-item">
+          <div class="brand-card-name">NARS</div>
+          <div class="brand-card-origin">Paris / New York</div>
+        </a>
+        <a href="shop.html?brand=mac-cosmetics" class="brand-card-item">
+          <div class="brand-card-name">MAC Cosmetics</div>
+          <div class="brand-card-origin">Toronto / Global</div>
+        </a>
+        <a href="shop.html?brand=the-ordinary" class="brand-card-item">
+          <div class="brand-card-name">The Ordinary</div>
+          <div class="brand-card-origin">Canada</div>
+        </a>
+        <a href="shop.html?brand=skin1004" class="brand-card-item">
+          <div class="brand-card-name">SKIN1004</div>
+          <div class="brand-card-origin">South Korea</div>
+        </a>
+        <a href="shop.html?brand=anua" class="brand-card-item">
+          <div class="brand-card-name">Anua</div>
+          <div class="brand-card-origin">South Korea</div>
+        </a>
+        <a href="shop.html?brand=embryolisse" class="brand-card-item">
+          <div class="brand-card-name">Embryolisse</div>
+          <div class="brand-card-origin">Paris, France</div>
+        </a>
+        <a href="shop.html?brand=nyx-professional-makeup" class="brand-card-item">
+          <div class="brand-card-name">NYX Professional</div>
+          <div class="brand-card-origin">Los Angeles, USA</div>
+        </a>
+        <a href="shop.html?brand=pixi" class="brand-card-item">
+          <div class="brand-card-name">Pixi</div>
+          <div class="brand-card-origin">London, UK</div>
+        </a>
+        <a href="shop.html?brand=elf-cosmetics" class="brand-card-item">
+          <div class="brand-card-name">e.l.f. Cosmetics</div>
+          <div class="brand-card-origin">Oakland, USA</div>
+        </a>
+        <a href="shop.html?brand=dior" class="brand-card-item">
+          <div class="brand-card-name">Dior Beauty</div>
+          <div class="brand-card-origin">Paris, France</div>
+        </a>
+        <a href="shop.html?brand=patrick-ta" class="brand-card-item">
+          <div class="brand-card-name">Patrick Ta</div>
+          <div class="brand-card-origin">West Hollywood</div>
+        </a>
+      </div>
+
+      <div style="text-align: center; margin-top: 36px;">
+        <a href="brands.html" class="btn btn-secondary btn-sm">Explore All Brands in Directory &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Beauty Collection Banner -->
+  <section class="section" style="padding-top: 0;" aria-label="Curated Collection">
+    <div class="container">
+      <div class="curated-banner">
+        <div class="curated-banner-grid">
+          <div>
+            <span class="subheading" style="color: var(--color-gold-bright);">The Signature Curation</span>
+            <h2>Complete Your Beauty Ritual with Curated Kits</h2>
+            <p>
+              Coordinate your look effortlessly with matched contour quads, lip contour duos, and long-wear setting mist kits designed for lasting elegance.
+            </p>
+            <div class="curated-banner-actions">
+              <a href="shop.html?category=beauty-kits" class="btn btn-gold btn-lg">Explore Beauty Kits</a>
+              <a href="https://wa.me/923183085519?text=Hello%20Glamora,%20I%20would%20like%20a%20personalized%20beauty%20kit%20recommendation" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+                <i class="fab fa-whatsapp"></i> Request Custom Kit
+              </a>
+            </div>
+          </div>
+          <div style="display: flex; justify-content: center;">
+            <img src="assets/products/beauty-kits/nars-sculpt-glow-contour-highlight-palette.jpeg" alt="Curated Palette" style="max-height: 320px; border-radius: var(--radius-lg); box-shadow: 0 10px 30px rgba(0,0,0,0.4);" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Arrivals Section -->
+  <section class="section section-alt" aria-label="New Arrivals">
+    <div class="container">
+      <div class="section-header-flex">
+        <div class="section-header-title">
+          <span class="subheading">Just Arrived</span>
+          <h2 class="heading-2">Latest Catalog Additions</h2>
+        </div>
+        <a href="new-arrivals.html" class="view-all-link">
+          All New Arrivals <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="product-grid" id="home-new-arrivals-grid">
+        <!-- Rendered dynamically via js/products.js -->
+        <div class="shimmer-skeleton" style="height: 380px; border-radius: var(--radius-lg);"></div>
+        <div class="shimmer-skeleton" style="height: 380px; border-radius: var(--radius-lg);"></div>
+        <div class="shimmer-skeleton" style="height: 380px; border-radius: var(--radius-lg);"></div>
+        <div class="shimmer-skeleton" style="height: 380px; border-radius: var(--radius-lg);"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Shop With Glamora? (Trust Pillars) -->
+  <section class="section" aria-label="Why Shop With Glamora">
+    <div class="container">
+      <div class="section-header text-center" style="max-width: 680px; margin: 0 auto 50px;">
+        <span class="subheading">The Glamora Promise</span>
+        <h2 class="heading-2" style="margin-bottom: 12px;">Why Shop With Glamora?</h2>
+        <p class="text-lead">A seamless, personalized beauty shopping experience designed around you.</p>
+      </div>
+
+      <div class="trust-pillars-grid">
+        <div class="trust-card">
+          <div class="trust-icon-wrap">
+            <i class="fas fa-check-double"></i>
+          </div>
+          <h3>Authenticity Focused</h3>
+          <p>Every product is hand-inspected for genuine authenticity and fresh batch preservation.</p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-wrap">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h3>Multi-Brand Variety</h3>
+          <p>Access iconic international cosmetics and leading Korean skincare in one single destination.</p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-wrap">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <h3>WhatsApp Ordering</h3>
+          <p>Direct communication with our concierge to verify exact shades, batches, and order instructions.</p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-wrap">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3>Personalized Care</h3>
+          <p>Request custom shades, gift wrapping, and skin-tone advice directly before finalizing your order.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visual Social Gallery -->
+  <section class="section section-alt" aria-label="Social Gallery">
+    <div class="container">
+      <div class="section-header text-center" style="margin-bottom: 36px;">
+        <span class="subheading">Beauty Inspiration</span>
+        <h2 class="heading-2">Curated Beauty Aesthetics</h2>
+      </div>
+
+      <div class="insta-gallery-grid">
+        <div class="insta-item">
+          <img src="assets/products/makeup/huda-beauty-power-bullet-matte-lipstick-shade-07.jpeg" alt="Glamora Look 1" loading="lazy">
+          <div class="insta-item-overlay"><i class="fas fa-sparkles"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="assets/products/skincare/anua-heartleaf-77-clear-pad.jpeg" alt="Glamora Look 2" loading="lazy">
+          <div class="insta-item-overlay"><i class="fas fa-sparkles"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="assets/products/makeup/patrick-ta-major-volume-plumping-lip-gloss-sparkle.jpeg" alt="Glamora Look 3" loading="lazy">
+          <div class="insta-item-overlay"><i class="fas fa-sparkles"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="assets/products/makeup/urban-decay-naked-cherry-eyeshadow-palette.jpeg" alt="Glamora Look 4" loading="lazy">
+          <div class="insta-item-overlay"><i class="fas fa-sparkles"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="assets/products/skincare/the-ordinary-glycolic-acid-7-percent-toner.jpeg" alt="Glamora Look 5" loading="lazy">
+          <div class="insta-item-overlay"><i class="fas fa-sparkles"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="assets/products/makeup/nars-next-level-formula-powder-blush.jpeg" alt="Glamora Look 6" loading="lazy">
+          <div class="insta-item-overlay"><i class="fas fa-sparkles"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Updates Section -->
+  <section class="section" aria-label="Newsletter Updates">
+    <div class="container">
+      <div class="newsletter-box">
+        <span class="subheading">Stay Informed</span>
+        <h3>Connect with Glamora Updates</h3>
+        <p>Be the first to learn about authentic beauty restocks, newly added international brands, and seasonal shade releases.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary">Keep Me Updated</button>
+        </form>
+        <div class="newsletter-disclaimer">
+          We respect your privacy. No spam. You may opt out at any time.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-brand-col">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/logo/glamora-logo.png" alt="Glamora Beauty">
+          </a>
+          <p class="footer-about-text">
+            Glamora is a multi-brand beauty destination designed to make discovering makeup, skincare, and beauty essentials simple and enjoyable. Explore products from different beauty brands and place personalized orders through our convenient WhatsApp ordering experience.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="contact.html" class="social-link" aria-label="Contact Concierge"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html"><i class="fas fa-angle-right"></i> Home</a></li>
+            <li><a href="shop.html"><i class="fas fa-angle-right"></i> Shop All Catalog</a></li>
+            <li><a href="categories.html"><i class="fas fa-angle-right"></i> Beauty Categories</a></li>
+            <li><a href="brands.html"><i class="fas fa-angle-right"></i> Authentic Brands</a></li>
+            <li><a href="trending.html"><i class="fas fa-angle-right"></i> Trending Products</a></li>
+            <li><a href="new-arrivals.html"><i class="fas fa-angle-right"></i> New Arrivals</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Customer Care -->
+        <div>
+          <h4 class="footer-col-title">Customer Care</h4>
+          <ul class="footer-nav-list">
+            <li><a href="about.html"><i class="fas fa-angle-right"></i> About Glamora</a></li>
+            <li><a href="contact.html"><i class="fas fa-angle-right"></i> Contact Concierge</a></li>
+            <li><a href="faq.html"><i class="fas fa-angle-right"></i> Frequently Asked Questions</a></li>
+            <li><a href="cart.html"><i class="fas fa-angle-right"></i> View Shopping Bag</a></li>
+            <li><a href="checkout.html"><i class="fas fa-angle-right"></i> WhatsApp Checkout</a></li>
+            <li><a href="privacy.html"><i class="fas fa-angle-right"></i> Privacy Policy</a></li>
+            <li><a href="terms.html"><i class="fas fa-angle-right"></i> Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Official Ordering -->
+        <div>
+          <h4 class="footer-col-title">WhatsApp Ordering</h4>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>Official Order Line:</strong><br>
+                <a href="https://wa.me/923183085519" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-bright); font-weight: 600;">+92 318 3085519</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Delivery Area:</strong><br>
+                Across all cities in Pakistan
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>Assistance Hours:</strong><br>
+                Mon &ndash; Sat: 10:00 AM &ndash; 10:00 PM (PKT)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Visitor Statistics Strip (4 Metrics) -->
+      <section class="footer-stats-section" aria-label="Live Visitor Statistics">
+        <div class="stats-section-title">
+          <i class="fas fa-chart-line"></i> Live Visitor Analytics &amp; Catalog Insights
+        </div>
+        <div class="visitor-stats-grid">
+          <!-- Total Visitors -->
+          <div class="visitor-stat-card">
+            <div class="stat-icon-wrapper">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-data-wrapper">
+              <div class="stat-value" id="stat-total-visitors">--</div>
+              <div class="stat-label">Total Visitors</div>
+            </div>
+          </div>
+
+          <!-- Today's Visitors -->
+          <div class="visitor-stat-card">
+            <div class="stat-icon-wrapper">
+              <i class="fas fa-calendar-day"></i>
+            </div>
+            <div class="stat-data-wrapper">
+              <div class="stat-value" id="stat-today-visitors">--</div>
+              <div class="stat-label">Today's Visitors (PKT)</div>
+            </div>
+          </div>
+
+          <!-- Online Visitors -->
+          <div class="visitor-stat-card">
+            <div class="stat-icon-wrapper">
+              <i class="fas fa-globe-asia"></i>
+            </div>
+            <div class="stat-data-wrapper">
+              <div class="stat-value">
+                <span class="stat-indicator"></span><span id="stat-online-visitors">--</span>
+              </div>
+              <div class="stat-label">Online Active Now</div>
+            </div>
+          </div>
+
+          <!-- Total Page Views -->
+          <div class="visitor-stat-card">
+            <div class="stat-icon-wrapper">
+              <i class="fas fa-eye"></i>
+            </div>
+            <div class="stat-data-wrapper">
+              <div class="stat-value" id="stat-page-views">--</div>
+              <div class="stat-label">Total Page Views</div>
+            </div>
+          </div>
+        </div>
+        <p class="stats-timezone-note">
+          Analytics calculated based on Pakistan Standard Time (PKT, UTC+5). Reset at 00:00:00 PKT. Anonymous unique UUID tracking.
+        </p>
+      </section>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="footer-year">2026</span> <strong>GLAMORA</strong>. All rights reserved. Premium Beauty &amp; Cosmetics. &bull; Developed by <a href="https://murtuzadeveloper.github.io/" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-bright); font-weight: 600; text-decoration: underline;">https://murtuzadeveloper.github.io/</a>
+        </div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Concierge</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/923183085519?text=Hello%20Glamora,%20I%20have%20an%20inquiry%20about%20your%20beauty%20collection" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-trigger" aria-label="Direct WhatsApp Chat">
+    <i class="fab fa-whatsapp"></i>
+    <span class="tooltip-label">Chat with Beauty Concierge</span>
+  </a>
+
+  <!-- Mobile Sticky Bottom Bar -->
+  <nav class="mobile-bottom-bar" aria-label="Mobile Navigation">
+    <a href="index.html" class="mobile-bottom-item active">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </a>
+    <a href="shop.html" class="mobile-bottom-item">
+      <i class="fas fa-store"></i>
+      <span>Shop</span>
+    </a>
+    <a href="#" class="mobile-bottom-item btn-open-search">
+      <i class="fas fa-search"></i>
+      <span>Search</span>
+    </a>
+    <a href="categories.html" class="mobile-bottom-item">
+      <i class="fas fa-th-large"></i>
+      <span>Categories</span>
+    </a>
+    <a href="cart.html" class="mobile-bottom-item">
+      <i class="fas fa-shopping-bag"></i>
+      <span class="cart-badge">0</span>
+      <span>Bag</span>
+    </a>
+  </nav>
+
+  <!-- Search Modal Overlay -->
+  <div class="search-modal-overlay" id="search-modal-overlay" role="dialog" aria-modal="true" aria-label="Search Catalog">
+    <div class="search-modal-container">
+      <div class="search-modal-header">
+        <i class="fas fa-search" style="color: var(--color-primary); font-size: 1.1rem;"></i>
+        <input type="text" class="search-input-field" id="search-modal-input" placeholder="Search beauty products, genuine brands, shades, or ingredients..." autocomplete="off">
+        <button type="button" class="btn-search-clear" id="btn-clear-search" aria-label="Clear Search Input"><i class="fas fa-times"></i></button>
+        <button type="button" class="btn-search-close" id="btn-close-search" aria-label="Close Search Dialog"><i class="fas fa-arrow-down"></i></button>
+      </div>
+
+      <div class="search-modal-body">
+        <!-- Trending Searches -->
+        <div class="search-tags-section">
+          <div class="search-tags-title">Trending Beauty Searches</div>
+          <div class="search-tags-list" id="search-trending-chips"></div>
+        </div>
+
+        <!-- Recent Searches -->
+        <div class="search-tags-section" id="search-history-wrapper" style="display: none;">
+          <div class="search-tags-title">
+            <span>Recent Searches</span>
+            <button type="button" id="btn-clear-history" style="font-size: 0.72rem; color: var(--color-primary-dark); cursor: pointer; text-decoration: underline;">Clear</button>
+          </div>
+          <div class="search-tags-list" id="search-history-chips"></div>
+        </div>
+
+        <!-- Live Results Container -->
+        <div id="search-live-results"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/config/visitor-counter-config.js"></script>
+  <script src="js/visitor-counter.js"></script>
+  <script src="js/whatsapp.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/audio-player.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Homepage Dynamic Loader -->
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const trendingGrid = document.getElementById('home-trending-grid');
+        const newGrid = document.getElementById('home-new-arrivals-grid');
+        
+        const trending = await window.GlamoraProducts.getTrending(4);
+        const newArrivals = await window.GlamoraProducts.getNewArrivals(4);
+
+        if (trendingGrid) window.GlamoraProducts.renderGrid(trending, trendingGrid);
+        if (newGrid) window.GlamoraProducts.renderGrid(newArrivals, newGrid);
+      } catch (err) {
+        console.error('Error loading homepage products:', err);
+      }
+    });
+  </script>
+  <!-- Background Ambient Music Element -->
+  <audio id="glamora-bg-audio" src="assets/audio/background-music.mp3" autoplay loop preload="auto"></audio>
+</body>
+</html>

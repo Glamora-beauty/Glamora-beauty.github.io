@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 450" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="colBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#363038"/>
+      <stop offset="50%" stop-color="#2D2830"/>
+      <stop offset="100%" stop-color="#201C22"/>
+    </linearGradient>
+    <linearGradient id="colGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2D7B3"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#C5A880"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="450" fill="url(#colBg)"/>
+  <circle cx="1200" cy="225" r="320" fill="none" stroke="url(#colGold)" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="1200" cy="225" r="260" fill="none" stroke="url(#colGold)" stroke-width="1" stroke-dasharray="10,6" opacity="0.2"/>
+  <circle cx="200" cy="400" r="180" fill="#423945" opacity="0.3"/>
+</svg>
