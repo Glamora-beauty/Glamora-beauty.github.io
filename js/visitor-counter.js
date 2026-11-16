@@ -1,8 +1,8 @@
 /**
  * ============================================================================
- * GLAMORA — ADVANCED LIVE VISITOR ANALYTICS ENGINE
- * Pakistan Standard Time (PKT, UTC+5) Daily Reset, Global Multi-Device Sync,
- * Dynamic Active Shoppers Presence, and Animated Smooth Counters.
+ * GLAMORA — 100% REAL LIVE VISITOR ANALYTICS ENGINE
+ * Pure Actual Values Across All Devices (Zero Fake Offsets / Invented Numbers).
+ * Real-Time Multi-Device Sync, Daily PKT Reset, and Rolling Active Presence.
  * ============================================================================
  */
 
@@ -10,28 +10,27 @@
   'use strict';
 
   const cfg = window.GLAMORA_VISITOR_CONFIG || {};
-  const base = cfg.baseCounts || { totalVisitors: 548, todayVisitors: 53, totalPageViews: 1964 };
+  const endpoint = cfg.endpoint || 'https://countapi.maayanlab.cloud/rpc';
   const keys = cfg.keys || {
-    totalVisitors: 'glamora_live_total_visitors',
-    todayVisitorsPrefix: 'glamora_live_today_',
-    totalPageViews: 'glamora_live_page_views',
-    activePresence: 'glamora_live_presence'
+    totalVisitors: 'glamora_actual_total_visitors',
+    todayVisitorsPrefix: 'glamora_actual_today_',
+    totalPageViews: 'glamora_actual_page_views',
+    activePresencePrefix: 'glamora_actual_active_'
   };
   const storageKeys = cfg.storageKeys || {
-    visitorId: 'glamora_anon_uid_v2',
-    lastPktDate: 'glamora_last_pkt_date_v2',
-    visitedToday: 'glamora_visited_today_v2',
-    cachedPv: 'glamora_cached_pv_v2',
-    cachedTv: 'glamora_cached_tv_v2',
-    cachedTd: 'glamora_cached_td_v2'
+    visitorId: 'glamora_actual_uid',
+    lastPktDate: 'glamora_actual_pkt_date',
+    visitedTodayPrefix: 'glamora_actual_visited_today_'
   };
 
-  // Clean out any legacy storage from older versions
+  // Clean out legacy mock keys from old versions
   try {
-    ['glamora_stat_val_tv', 'glamora_stat_val_td', 'glamora_stat_val_pv',
-     'glamora_actual_real_tv', 'glamora_actual_real_td', 'glamora_actual_real_pv'].forEach(k => {
-      localStorage.removeItem(k);
-    });
+    [
+      'glamora_stat_val_tv', 'glamora_stat_val_td', 'glamora_stat_val_pv',
+      'glamora_actual_real_tv', 'glamora_actual_real_td', 'glamora_actual_real_pv',
+      'glamora_cached_pv_v2', 'glamora_cached_tv_v2', 'glamora_cached_td_v2',
+      'glamora_anon_uid_v2', 'glamora_visited_today_v2', 'glamora_last_pkt_date_v2'
+    ].forEach(k => localStorage.removeItem(k));
   } catch (e) {}
 
   /**
@@ -46,7 +45,7 @@
   }
 
   /**
-   * Helper: Pakistan Standard Time (PKT, UTC+5) YYYY-MM-DD
+   * Helper: Pakistan Standard Time (PKT, UTC+5) Date string: YYYY-MM-DD
    */
   function getPktDateString() {
     const now = new Date();
@@ -61,15 +60,15 @@
   /**
    * Helper: Smooth number counter animation
    */
-  function animateValue(elem, start, end, duration = 1000) {
+  function animateValue(elem, targetVal, duration = 800) {
     if (!elem) return;
-    const target = Number(end);
+    const target = Number(targetVal);
     if (isNaN(target)) {
-      elem.textContent = end;
+      elem.textContent = targetVal;
       return;
     }
     const currentVal = parseInt(elem.textContent.replace(/,/g, ''), 10);
-    const from = isNaN(currentVal) ? start : currentVal;
+    const from = isNaN(currentVal) ? 0 : currentVal;
     const range = target - from;
     if (range === 0) {
       elem.textContent = target.toLocaleString();
@@ -91,21 +90,49 @@
     requestAnimationFrame(update);
   }
 
-  class VisitorAnalyticsEngine {
+  /**
+   * Helper: Cloud API Hit (Increment)
+   */
+  async function hitMetric(key) {
+    try {
+      const res = await fetch(`${endpoint}/hit`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ key })
+      });
+      return res.ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  /**
+   * Helper: Cloud API Get (Query count)
+   */
+  async function getMetric(key) {
+    try {
+      const res = await fetch(`${endpoint}/get?key=${encodeURIComponent(key)}`, {
+        cache: 'no-store'
+      });
+      if (res.ok) {
+        const text = await res.text();
+        const num = parseInt(text, 10);
+        return isNaN(num) ? 0 : num;
+      }
+    } catch (e) {}
+    return 0;
+  }
+
+  class GlamoraActualVisitorCounter {
     constructor() {
+      this.isNewVisitor = false;
       this.uid = this.getOrCreateVisitorId();
       this.pktDate = getPktDateString();
-      this.isNewVisitor = false;
-      this.isFirstVisitToday = false;
+      this.todayKey = `${storageKeys.visitedTodayPrefix}${this.pktDate}`;
+      this.isFirstVisitToday = localStorage.getItem(this.todayKey) !== 'true';
+      this.lastPingedMinute = null;
 
-      this.currentStats = {
-        totalVisitors: base.totalVisitors,
-        todayVisitors: base.todayVisitors,
-        onlineVisitors: 5,
-        pageViews: base.totalPageViews
-      };
-
-      this.domElements = {
+      this.dom = {
         totalVisitors: document.getElementById('stat-total-visitors'),
         todayVisitors: document.getElementById('stat-today-visitors'),
         onlineVisitors: document.getElementById('stat-online-visitors'),
@@ -119,55 +146,23 @@
         uid = 'glam_' + generateUUID();
         localStorage.setItem(storageKeys.visitorId, uid);
         this.isNewVisitor = true;
+      } else {
+        this.isNewVisitor = false;
       }
       return uid;
     }
 
     async init() {
-      // Daily PKT visit reset
-      const lastPktDate = localStorage.getItem(storageKeys.lastPktDate);
-      if (lastPktDate !== this.pktDate) {
-        localStorage.setItem(storageKeys.lastPktDate, this.pktDate);
-        localStorage.setItem(storageKeys.visitedToday, 'false');
-        this.isFirstVisitToday = true;
-      } else {
-        this.isFirstVisitToday = localStorage.getItem(storageKeys.visitedToday) !== 'true';
-      }
-
-      // Initial fast render from cache or healthy baseline
-      this.renderInitialValues();
-
-      // 1. Try local server API (when running node server.js locally)
+      // 1. Try local server API first if running locally on localhost:3000
       const serverSuccess = await this.tryServerApi();
       if (serverSuccess) {
-        this.startHeartbeat(true);
+        this.startPresenceHeartbeat(true);
         return;
       }
 
-      // 2. Production Cloud Counter (GitHub Pages mode)
-      await this.syncCloudAnalytics();
-      this.startHeartbeat(false);
-    }
-
-    renderInitialValues() {
-      const cachedPv = parseInt(localStorage.getItem(storageKeys.cachedPv), 10);
-      const cachedTv = parseInt(localStorage.getItem(storageKeys.cachedTv), 10);
-      const cachedTd = parseInt(localStorage.getItem(storageKeys.cachedTd), 10);
-
-      this.currentStats.pageViews = (cachedPv && cachedPv >= base.totalPageViews) ? cachedPv + 1 : base.totalPageViews;
-      this.currentStats.totalVisitors = (cachedTv && cachedTv >= base.totalVisitors) ? cachedTv : base.totalVisitors;
-      this.currentStats.todayVisitors = (cachedTd && cachedTd >= base.todayVisitors) ? cachedTd : base.todayVisitors;
-      this.currentStats.onlineVisitors = this.computeDynamicOnline(0);
-
-      this.updateDOM(this.currentStats);
-    }
-
-    computeDynamicOnline(liveActiveOffset = 0) {
-      // Natural organic fluctuation: between 4 and 8 active shoppers currently online
-      const minute = new Date().getMinutes();
-      const wave = Math.sin(minute * 0.3) * 2;
-      const baseActive = 5 + Math.round(wave) + (liveActiveOffset % 3);
-      return Math.max(3, Math.min(11, baseActive));
+      // 2. Production Cloud API (GitHub Pages & multi-device sync)
+      await this.syncActualMetrics();
+      this.startPresenceHeartbeat(false);
     }
 
     async tryServerApi() {
@@ -182,15 +177,14 @@
           const data = await res.json();
           if (data && typeof data.totalVisitors === 'number') {
             if (this.isFirstVisitToday) {
-              localStorage.setItem(storageKeys.visitedToday, 'true');
+              localStorage.setItem(this.todayKey, 'true');
             }
-            this.currentStats = {
+            this.renderDOM({
               totalVisitors: data.totalVisitors,
               todayVisitors: data.todayVisitors,
               onlineVisitors: data.onlineVisitors,
               pageViews: data.pageViews
-            };
-            this.updateDOM(this.currentStats);
+            });
             return true;
           }
         }
@@ -198,120 +192,110 @@
       return false;
     }
 
-    async syncCloudAnalytics() {
-      const endpoint = cfg.endpoint || 'https://countapi.maayanlab.cloud/rpc';
-      const todayKey = `${keys.todayVisitorsPrefix}${this.pktDate}`;
+    async syncActualMetrics() {
+      const todayCloudKey = `${keys.todayVisitorsPrefix}${this.pktDate}`;
+      const currentMinute = Math.floor(Date.now() / 60000);
+      const activeMinuteKey = `${keys.activePresencePrefix}${currentMinute}`;
 
-      // Hit Page Views on every page load
-      const hitPvPromise = fetch(`${endpoint}/hit`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ key: keys.totalPageViews })
-      }).catch(() => null);
+      // A. Increment Page Views on every page load
+      const hitPv = hitMetric(keys.totalPageViews);
 
-      // Hit Total Visitors if brand new
-      let hitTvPromise = Promise.resolve();
+      // B. Increment Total Visitors if this device is visiting for the first time
+      let hitTv = Promise.resolve();
       if (this.isNewVisitor) {
-        hitTvPromise = fetch(`${endpoint}/hit`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ key: keys.totalVisitors })
-        }).catch(() => null);
+        hitTv = hitMetric(keys.totalVisitors);
       }
 
-      // Hit Today's Visitors if first visit today in PKT
-      let hitTdPromise = Promise.resolve();
+      // C. Increment Today's Visitors if this device has not visited yet today (PKT)
+      let hitTd = Promise.resolve();
       if (this.isFirstVisitToday) {
-        hitTdPromise = fetch(`${endpoint}/hit`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ key: todayKey })
-        }).then(() => {
-          localStorage.setItem(storageKeys.visitedToday, 'true');
-        }).catch(() => null);
+        hitTd = hitMetric(todayCloudKey).then(() => {
+          localStorage.setItem(this.todayKey, 'true');
+        });
       }
 
-      await Promise.all([hitPvPromise, hitTvPromise, hitTdPromise]);
+      // D. Ping Online Active Presence for this minute slot
+      let hitActive = Promise.resolve();
+      if (this.lastPingedMinute !== currentMinute) {
+        this.lastPingedMinute = currentMinute;
+        hitActive = hitMetric(activeMinuteKey);
+      }
 
-      // Fetch latest global counts
+      // Wait for increments to register
+      await Promise.all([hitPv, hitTv, hitTd, hitActive]);
+
+      // E. Fetch the actual live counts from cloud database
+      await this.fetchAndRenderCloudStats();
+    }
+
+    async fetchAndRenderCloudStats() {
+      const todayCloudKey = `${keys.todayVisitorsPrefix}${this.pktDate}`;
+      const currentMinute = Math.floor(Date.now() / 60000);
+      const prevMinute = currentMinute - 1;
+
       try {
-        const [pvRes, tvRes, tdRes] = await Promise.all([
-          fetch(`${endpoint}/get?key=${keys.totalPageViews}`).then(r => r.text()).catch(() => '0'),
-          fetch(`${endpoint}/get?key=${keys.totalVisitors}`).then(r => r.text()).catch(() => '0'),
-          fetch(`${endpoint}/get?key=${todayKey}`).then(r => r.text()).catch(() => '0')
+        const [pvVal, tvVal, tdVal, activeCurrent, activePrev] = await Promise.all([
+          getMetric(keys.totalPageViews),
+          getMetric(keys.totalVisitors),
+          getMetric(todayCloudKey),
+          getMetric(`${keys.activePresencePrefix}${currentMinute}`),
+          getMetric(`${keys.activePresencePrefix}${prevMinute}`)
         ]);
 
-        const rawPv = parseInt(pvRes, 10) || 0;
-        const rawTv = parseInt(tvRes, 10) || 0;
-        const rawTd = parseInt(tdRes, 10) || 0;
+        // Real active online count across all active devices
+        const realOnline = Math.max(1, Math.max(activeCurrent, activePrev));
+        const realPv = Math.max(1, pvVal);
+        const realTv = Math.max(1, tvVal);
+        const realTd = Math.max(1, tdVal);
 
-        const totalPv = base.totalPageViews + rawPv;
-        const totalTv = base.totalVisitors + rawTv;
-        const totalTd = base.todayVisitors + rawTd;
-
-        this.currentStats.pageViews = totalPv;
-        this.currentStats.totalVisitors = totalTv;
-        this.currentStats.todayVisitors = totalTd;
-        this.currentStats.onlineVisitors = this.computeDynamicOnline(rawPv % 4);
-
-        // Cache for offline/instant reload
-        localStorage.setItem(storageKeys.cachedPv, totalPv.toString());
-        localStorage.setItem(storageKeys.cachedTv, totalTv.toString());
-        localStorage.setItem(storageKeys.cachedTd, totalTd.toString());
-
-        this.updateDOM(this.currentStats);
-      } catch (err) {
-        // Fallback already rendered
-      }
+        this.renderDOM({
+          totalVisitors: realTv,
+          todayVisitors: realTd,
+          onlineVisitors: realOnline,
+          pageViews: realPv
+        });
+      } catch (err) {}
     }
 
-    updateDOM(stats) {
-      if (this.domElements.totalVisitors) {
-        animateValue(this.domElements.totalVisitors, base.totalVisitors, stats.totalVisitors);
-      }
-      if (this.domElements.todayVisitors) {
-        animateValue(this.domElements.todayVisitors, base.todayVisitors, stats.todayVisitors);
-      }
-      if (this.domElements.onlineVisitors) {
-        animateValue(this.domElements.onlineVisitors, 4, stats.onlineVisitors, 600);
-      }
-      if (this.domElements.pageViews) {
-        animateValue(this.domElements.pageViews, base.totalPageViews, stats.pageViews);
-      }
+    renderDOM({ totalVisitors, todayVisitors, onlineVisitors, pageViews }) {
+      if (this.dom.totalVisitors) animateValue(this.dom.totalVisitors, totalVisitors);
+      if (this.dom.todayVisitors) animateValue(this.dom.todayVisitors, todayVisitors);
+      if (this.dom.onlineVisitors) animateValue(this.dom.onlineVisitors, onlineVisitors, 400);
+      if (this.dom.pageViews) animateValue(this.dom.pageViews, pageViews);
     }
 
-    startHeartbeat(isServer = false) {
+    startPresenceHeartbeat(isLocalServer = false) {
       setInterval(async () => {
-        if (isServer) {
+        if (isLocalServer) {
           try {
             const url = `/api/stats?uid=${encodeURIComponent(this.uid)}&pktDate=${this.pktDate}`;
             const res = await fetch(url, { cache: 'no-store' });
             if (res.ok) {
               const data = await res.json();
-              if (data && this.domElements.onlineVisitors) {
-                animateValue(this.domElements.onlineVisitors, this.currentStats.onlineVisitors, data.onlineVisitors, 600);
-                this.currentStats.onlineVisitors = data.onlineVisitors;
+              if (data) {
+                this.renderDOM(data);
               }
             }
           } catch (e) {}
         } else {
-          // Dynamic online presence heartbeat
-          const nextOnline = this.computeDynamicOnline(Math.floor(Math.random() * 3));
-          if (this.domElements.onlineVisitors && nextOnline !== this.currentStats.onlineVisitors) {
-            animateValue(this.domElements.onlineVisitors, this.currentStats.onlineVisitors, nextOnline, 600);
-            this.currentStats.onlineVisitors = nextOnline;
+          // Cloud multi-device presence sync
+          const currentMinute = Math.floor(Date.now() / 60000);
+          if (this.lastPingedMinute !== currentMinute) {
+            this.lastPingedMinute = currentMinute;
+            await hitMetric(`${keys.activePresencePrefix}${currentMinute}`);
           }
+          await this.fetchAndRenderCloudStats();
         }
-      }, cfg.heartbeatIntervalMs || 12000);
+      }, cfg.heartbeatIntervalMs || 8000);
     }
   }
 
-  // Auto-initialize when DOM is ready
+  // Initialize immediately on DOM ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
-      new VisitorAnalyticsEngine().init();
+      new GlamoraActualVisitorCounter().init();
     });
   } else {
-    new VisitorAnalyticsEngine().init();
+    new GlamoraActualVisitorCounter().init();
   }
 })();

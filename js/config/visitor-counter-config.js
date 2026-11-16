@@ -1,43 +1,32 @@
 /**
  * ============================================================================
- * GLAMORA — LIVE VISITOR COUNTER CONFIGURATION
- * High-reliability distributed analytics engine with Pakistan Standard Time (PKT),
- * live global multi-device synchronization, and dynamic online active presence.
+ * GLAMORA — LIVE VISITOR ANALYTICS CONFIGURATION
+ * 100% Actual Global Multi-Device Real Values (Zero Fake Baseline Offsets).
+ * Synchronized live via CORS-enabled high-speed PostgREST cloud database.
  * ============================================================================
  */
 
 window.GLAMORA_VISITOR_CONFIG = {
-  // Primary Endpoint: High-performance, CORS-enabled PostgREST RPC
+  // Production Cloud RPC Endpoint (CORS enabled, real-time shared database)
   endpoint: 'https://countapi.maayanlab.cloud/rpc',
-  
-  // Storage Keys & Remote Metric Identifiers
-  keys: {
-    totalVisitors: 'glamora_live_total_visitors',
-    todayVisitorsPrefix: 'glamora_live_today_',
-    totalPageViews: 'glamora_live_page_views',
-    activePresence: 'glamora_live_presence'
-  },
 
-  // Organic Commerce Baseline (guarantees an active, credible luxury brand experience)
-  baseCounts: {
-    totalVisitors: 548,
-    todayVisitors: 53,
-    totalPageViews: 1964
+  // Metric Keys (Clean keys for 100% actual counts)
+  keys: {
+    totalVisitors: 'glamora_actual_total_visitors',
+    todayVisitorsPrefix: 'glamora_actual_today_',
+    totalPageViews: 'glamora_actual_page_views',
+    activePresencePrefix: 'glamora_actual_active_'
   },
 
   // Timezone & Presence Settings
   timezone: 'Asia/Karachi',
-  utcOffsetHours: 5,           // Pakistan Standard Time (UTC+5)
-  heartbeatIntervalMs: 12000,   // Heartbeat & presence update every 12 seconds
-  
-  // Storage Keys
+  utcOffsetHours: 5,           // Pakistan Standard Time (PKT, UTC+5)
+  heartbeatIntervalMs: 8000,    // 8-second presence & sync interval for instant multi-device feedback
+
+  // Local Storage Keys
   storageKeys: {
-    visitorId: 'glamora_anon_uid_v2',
-    lastPktDate: 'glamora_last_pkt_date_v2',
-    visitedToday: 'glamora_visited_today_v2',
-    sessionTimestamp: 'glamora_last_active_ts_v2',
-    cachedPv: 'glamora_cached_pv_v2',
-    cachedTv: 'glamora_cached_tv_v2',
-    cachedTd: 'glamora_cached_td_v2'
+    visitorId: 'glamora_actual_uid',
+    lastPktDate: 'glamora_actual_pkt_date',
+    visitedTodayPrefix: 'glamora_actual_visited_today_'
   }
 };
