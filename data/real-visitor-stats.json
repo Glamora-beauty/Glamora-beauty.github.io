@@ -1,16 +1,18 @@
 {
   "totalVisitors": [
     "glam_992ee860-83cc-467d-bcdd-8aeaff9b5a04",
-    "glam_ce95acd4-47c5-455b-a3f1-a6ac7456fb9a"
+    "glam_ce95acd4-47c5-455b-a3f1-a6ac7456fb9a",
+    "glam_ad0859f0-569a-43ae-a476-da51e409a613"
   ],
   "todayVisitors": {
     "2026-11-16": [
       "glam_992ee860-83cc-467d-bcdd-8aeaff9b5a04",
-      "glam_ce95acd4-47c5-455b-a3f1-a6ac7456fb9a"
+      "glam_ce95acd4-47c5-455b-a3f1-a6ac7456fb9a",
+      "glam_ad0859f0-569a-43ae-a476-da51e409a613"
     ]
   },
   "activeSessions": {
-    "glam_992ee860-83cc-467d-bcdd-8aeaff9b5a04": 1794832535747
+    "glam_ad0859f0-569a-43ae-a476-da51e409a613": 1794834406105
   },
-  "pageViews": 10
+  "pageViews": 18
 }
